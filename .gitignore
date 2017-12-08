@@ -2,3 +2,4 @@
 .DS_Store
 ./CIFAR-10/data
 /CIFAR-10/data
+*.icloud
