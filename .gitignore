@@ -3,3 +3,4 @@
 ./CIFAR-10/data
 /CIFAR-10/data
 *.icloud
+*.npy
