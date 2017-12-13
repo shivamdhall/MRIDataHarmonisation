@@ -1,0 +1,201 @@
+[I 16:44:32.497 NotebookApp] [nb_conda_kernels] enabled, 15 kernels found
+[I 16:44:32.503 NotebookApp] Writing notebook server cookie secret to /run/user/1000/jupyter/notebook_cookie_secret
+[I 16:44:33.285 NotebookApp] [nb_anacondacloud] enabled
+[I 16:44:33.290 NotebookApp] [nb_conda] enabled
+[I 16:44:33.381 NotebookApp] ✓ nbpresent HTML export ENABLED
+[W 16:44:33.381 NotebookApp] ✗ nbpresent PDF export DISABLED: No module named nbbrowserpdf.exporters.pdf
+[I 16:44:34.434 NotebookApp] sparkmagic extension enabled!
+[I 16:44:34.439 NotebookApp] Serving notebooks from local directory: /home/ubuntu/project/MRIDataHarmonisation/Development
+[I 16:44:34.439 NotebookApp] 0 active kernels
+[I 16:44:34.439 NotebookApp] The Jupyter Notebook is running at:
+[I 16:44:34.439 NotebookApp] https://[all ip addresses on your system]:8888/
+[I 16:44:34.439 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 16:44:49.895 NotebookApp] SSL Error on 9 ('5.151.152.139', 1871): [SSL: TLSV1_ALERT_UNKNOWN_CA] tlsv1 alert unknown ca (_ssl.c:661)
+[I 16:45:00.622 NotebookApp] 302 GET / (5.151.152.139) 0.47ms
+[I 16:45:00.676 NotebookApp] 302 GET /tree? (5.151.152.139) 0.85ms
+[I 16:45:06.643 NotebookApp] 302 POST /login?next=%2Ftree%3F (5.151.152.139) 4.70ms
+[W 16:45:09.274 NotebookApp] 404 GET /static/components/moment/locale/en-gb.js?v=20171213164432 (5.151.152.139) 12.10ms referer=https://34.251.224.243:8888/tree?
+[W 16:45:22.292 NotebookApp] 404 GET /static/components/moment/locale/en-gb.js?v=20171213164432 (5.151.152.139) 1.19ms referer=https://34.251.224.243:8888/notebooks/CNN_Slice_Predictor-2.ipynb
+[W 16:45:22.345 NotebookApp] Notebook CNN_Slice_Predictor-2.ipynb is not trusted
+[W 16:45:22.603 NotebookApp] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (5.151.152.139) 3.23ms referer=https://34.251.224.243:8888/notebooks/CNN_Slice_Predictor-2.ipynb
+[I 16:45:25.889 NotebookApp] Kernel started: 9cc2f4ae-5ae2-468f-b0ea-fe0c8569a399
+[I 16:45:26.345 NotebookApp] Adapting to protocol v5.1 for kernel 9cc2f4ae-5ae2-468f-b0ea-fe0c8569a399
+[I 16:45:31.895 NotebookApp] Saving file at /CNN_Slice_Predictor-2.ipynb
+[W 16:45:31.896 NotebookApp] Notebook CNN_Slice_Predictor-2.ipynb is not trusted
+[I 16:45:32.022 NotebookApp] Copying CNN_Slice_Predictor-2.ipynb to 
+[W 16:45:32.057 NotebookApp] Notebook CNN_Slice_Predictor-2.ipynb is not trusted
+[W 16:45:32.084 NotebookApp] Notebook CNN_Slice_Predictor-2-Copy1.ipynb is not trusted
+[W 16:45:32.694 NotebookApp] Notebook CNN_Slice_Predictor-2-Copy1.ipynb is not trusted
+[W 16:45:33.213 NotebookApp] 404 GET /static/components/moment/locale/en-gb.js?v=20171213164432 (5.151.152.139) 1.31ms referer=https://34.251.224.243:8888/notebooks/CNN_Slice_Predictor-2-Copy1.ipynb
+[I 16:45:35.346 NotebookApp] Kernel started: 47553384-f4fe-4fce-8d65-0fcc7e257148
+[W 16:45:35.365 NotebookApp] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (5.151.152.139) 1.34ms referer=https://34.251.224.243:8888/notebooks/CNN_Slice_Predictor-2-Copy1.ipynb
+[I 16:45:35.775 NotebookApp] Adapting to protocol v5.1 for kernel 47553384-f4fe-4fce-8d65-0fcc7e257148
+[I 16:45:39.179 NotebookApp] Starting buffering for 9cc2f4ae-5ae2-468f-b0ea-fe0c8569a399:8FDC41CBAE624F46A86C836C943D4528
+[I 16:47:35.582 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[W 16:47:35.583 NotebookApp] Notebook CNN_Slice_Predictor-AWS.ipynb is not trusted
+[I 16:49:35.749 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[W 16:49:35.750 NotebookApp] Notebook CNN_Slice_Predictor-AWS.ipynb is not trusted
+[I 16:51:35.532 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[W 16:51:35.533 NotebookApp] Notebook CNN_Slice_Predictor-AWS.ipynb is not trusted
+[I 16:53:35.514 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[W 16:53:35.515 NotebookApp] Notebook CNN_Slice_Predictor-AWS.ipynb is not trusted
+[I 16:55:35.569 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[W 16:55:35.570 NotebookApp] Notebook CNN_Slice_Predictor-AWS.ipynb is not trusted
+[I 17:12:08.138 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[W 17:12:08.139 NotebookApp] Notebook CNN_Slice_Predictor-AWS.ipynb is not trusted
+[I 17:13:40.610 NotebookApp] Starting buffering for 47553384-f4fe-4fce-8d65-0fcc7e257148:F3A1FE3051FC47AF8895C0ADF655D41D
+[I 17:13:41.082 NotebookApp] Kernel restarted: 47553384-f4fe-4fce-8d65-0fcc7e257148
+[I 17:13:41.779 NotebookApp] Adapting to protocol v5.1 for kernel 47553384-f4fe-4fce-8d65-0fcc7e257148
+[I 17:13:41.780 NotebookApp] Restoring connection for 47553384-f4fe-4fce-8d65-0fcc7e257148:F3A1FE3051FC47AF8895C0ADF655D41D
+[I 17:13:41.780 NotebookApp] Replaying 6 buffered messages
+[I 17:14:08.008 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[W 17:14:08.009 NotebookApp] Notebook CNN_Slice_Predictor-AWS.ipynb is not trusted
+[I 17:18:27.123 NotebookApp] Starting buffering for 47553384-f4fe-4fce-8d65-0fcc7e257148:F3A1FE3051FC47AF8895C0ADF655D41D
+[I 17:18:27.393 NotebookApp] Kernel restarted: 47553384-f4fe-4fce-8d65-0fcc7e257148
+[I 17:18:28.006 NotebookApp] Adapting to protocol v5.1 for kernel 47553384-f4fe-4fce-8d65-0fcc7e257148
+[I 17:18:28.007 NotebookApp] Restoring connection for 47553384-f4fe-4fce-8d65-0fcc7e257148:F3A1FE3051FC47AF8895C0ADF655D41D
+[I 17:18:28.007 NotebookApp] Replaying 6 buffered messages
+[I 17:19:23.483 NotebookApp] Starting buffering for 47553384-f4fe-4fce-8d65-0fcc7e257148:F3A1FE3051FC47AF8895C0ADF655D41D
+[I 17:19:23.798 NotebookApp] Kernel restarted: 47553384-f4fe-4fce-8d65-0fcc7e257148
+[I 17:19:24.399 NotebookApp] Adapting to protocol v5.1 for kernel 47553384-f4fe-4fce-8d65-0fcc7e257148
+[I 17:19:24.400 NotebookApp] Restoring connection for 47553384-f4fe-4fce-8d65-0fcc7e257148:F3A1FE3051FC47AF8895C0ADF655D41D
+[I 17:19:24.400 NotebookApp] Replaying 6 buffered messages
+[I 17:19:58.052 NotebookApp] Starting buffering for 47553384-f4fe-4fce-8d65-0fcc7e257148:F3A1FE3051FC47AF8895C0ADF655D41D
+[I 17:19:58.276 NotebookApp] Kernel restarted: 47553384-f4fe-4fce-8d65-0fcc7e257148
+[I 17:19:58.887 NotebookApp] Adapting to protocol v5.1 for kernel 47553384-f4fe-4fce-8d65-0fcc7e257148
+[I 17:19:58.888 NotebookApp] Restoring connection for 47553384-f4fe-4fce-8d65-0fcc7e257148:F3A1FE3051FC47AF8895C0ADF655D41D
+[I 17:19:58.888 NotebookApp] Replaying 6 buffered messages
+[I 17:20:22.139 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[W 17:20:22.140 NotebookApp] Notebook CNN_Slice_Predictor-AWS.ipynb is not trusted
+[I 17:22:22.340 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[W 17:22:22.341 NotebookApp] Notebook CNN_Slice_Predictor-AWS.ipynb is not trusted
+[I 17:24:29.428 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[W 17:24:29.430 NotebookApp] Notebook CNN_Slice_Predictor-AWS.ipynb is not trusted
+[I 17:26:29.320 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[W 17:26:29.321 NotebookApp] Notebook CNN_Slice_Predictor-AWS.ipynb is not trusted
+[I 17:28:29.299 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[W 17:28:29.300 NotebookApp] Notebook CNN_Slice_Predictor-AWS.ipynb is not trusted
+[I 17:30:29.489 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[W 17:30:29.490 NotebookApp] Notebook CNN_Slice_Predictor-AWS.ipynb is not trusted
+[I 17:32:29.428 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[W 17:32:29.429 NotebookApp] Notebook CNN_Slice_Predictor-AWS.ipynb is not trusted
+[I 17:34:29.447 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[W 17:34:29.448 NotebookApp] Notebook CNN_Slice_Predictor-AWS.ipynb is not trusted
+[I 17:36:29.416 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[W 17:36:29.417 NotebookApp] Notebook CNN_Slice_Predictor-AWS.ipynb is not trusted
+[I 17:38:31.617 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[W 17:38:31.619 NotebookApp] Notebook CNN_Slice_Predictor-AWS.ipynb is not trusted
+[I 17:40:29.311 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[I 17:42:29.338 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[I 17:44:29.393 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[I 17:48:29.282 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[I 17:50:29.245 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[I 17:52:29.270 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[I 17:54:29.284 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[I 17:56:29.311 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[I 17:57:01.046 NotebookApp] Kernel interrupted: 47553384-f4fe-4fce-8d65-0fcc7e257148
+[I 17:58:29.347 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[I 18:00:29.603 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[I 18:02:29.288 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[I 18:02:52.932 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[I 18:02:53.039 NotebookApp] Copying CNN_Slice_Predictor-AWS.ipynb to 
+[W 18:02:54.153 NotebookApp] 404 GET /static/components/moment/locale/en-gb.js?v=20171213164432 (5.151.152.139) 1.24ms referer=https://34.251.224.243:8888/notebooks/CNN_Slice_Predictor-AWS-Copy1.ipynb
+[W 18:02:54.179 NotebookApp] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (5.151.152.139) 1.13ms referer=https://34.251.224.243:8888/notebooks/CNN_Slice_Predictor-AWS-Copy1.ipynb
+[I 18:02:55.987 NotebookApp] Kernel started: f8026928-08ff-4042-97ea-4adfa4a6b7ce
+[I 18:02:56.464 NotebookApp] Adapting to protocol v5.1 for kernel f8026928-08ff-4042-97ea-4adfa4a6b7ce
+[I 18:04:29.328 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[I 18:04:56.079 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS2.ipynb
+[I 18:06:29.320 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[I 18:06:56.073 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS2.ipynb
+[I 18:08:29.317 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[I 18:08:56.072 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS2.ipynb
+[I 18:10:29.318 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[I 18:10:56.080 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS2.ipynb
+[I 18:12:29.309 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[I 18:12:56.073 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS2.ipynb
+[I 18:14:29.315 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[I 18:14:56.096 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS2.ipynb
+[I 18:16:29.320 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[I 18:17:04.942 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS2.ipynb
+[I 18:18:29.316 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[I 18:19:56.799 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS2.ipynb
+[I 18:20:29.214 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[W 18:21:35.882 NotebookApp] Notebook CNN_Slice_Predictor.ipynb is not trusted
+[W 18:21:35.967 NotebookApp] 404 GET /static/components/moment/locale/en-gb.js?v=20171213164432 (5.151.152.139) 1.76ms referer=https://34.251.224.243:8888/notebooks/CNN_Slice_Predictor.ipynb
+[W 18:21:35.991 NotebookApp] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (5.151.152.139) 1.68ms referer=https://34.251.224.243:8888/notebooks/CNN_Slice_Predictor.ipynb
+[I 18:21:37.999 NotebookApp] Kernel started: 55219a3a-b737-4e89-a434-16d2d53d8afe
+[I 18:21:38.696 NotebookApp] Adapting to protocol v5.1 for kernel 55219a3a-b737-4e89-a434-16d2d53d8afe
+[W 18:21:46.101 NotebookApp] Notebook CNN_Slice_Predictor-2.ipynb is not trusted
+[W 18:21:46.157 NotebookApp] 404 GET /static/components/moment/locale/en-gb.js?v=20171213164432 (5.151.152.139) 1.66ms referer=https://34.251.224.243:8888/notebooks/CNN_Slice_Predictor-2.ipynb
+[W 18:21:46.256 NotebookApp] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (5.151.152.139) 1.66ms referer=https://34.251.224.243:8888/notebooks/CNN_Slice_Predictor-2.ipynb
+[I 18:21:48.231 NotebookApp] Adapting to protocol v5.1 for kernel 9cc2f4ae-5ae2-468f-b0ea-fe0c8569a399
+[I 18:21:56.734 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS2.ipynb
+[I 18:22:29.211 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[I 18:23:38.272 NotebookApp] Saving file at /CNN_Slice_Predictor.ipynb
+[W 18:23:38.274 NotebookApp] Notebook CNN_Slice_Predictor.ipynb is not trusted
+[I 18:23:56.686 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS2.ipynb
+[I 18:24:29.322 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[I 18:25:19.947 NotebookApp] Kernel interrupted: f8026928-08ff-4042-97ea-4adfa4a6b7ce
+[I 18:25:38.236 NotebookApp] Saving file at /CNN_Slice_Predictor.ipynb
+[W 18:25:38.238 NotebookApp] Notebook CNN_Slice_Predictor.ipynb is not trusted
+[I 18:25:56.694 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS2.ipynb
+[I 18:26:29.200 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[I 18:28:29.349 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[I 18:30:29.336 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[I 18:32:09.639 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS2.ipynb
+[I 18:32:29.263 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[I 18:33:23.842 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[I 18:34:09.583 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS2.ipynb
+[I 18:34:29.311 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[I 18:35:39.167 NotebookApp] Saving file at /CNN_Slice_Predictor.ipynb
+[W 18:35:39.167 NotebookApp] Notebook CNN_Slice_Predictor.ipynb is not trusted
+[I 18:35:48.424 NotebookApp] Saving file at /CNN_Slice_Predictor-2.ipynb
+[W 18:35:48.425 NotebookApp] Notebook CNN_Slice_Predictor-2.ipynb is not trusted
+[I 18:36:38.311 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[I 18:36:46.938 NotebookApp] Saving file at /CNN_Slice_Predictor-2.ipynb
+[W 18:36:46.939 NotebookApp] Notebook CNN_Slice_Predictor-2.ipynb is not trusted
+[I 18:36:49.670 NotebookApp] Saving file at /CNN_Slice_Predictor.ipynb
+[W 18:36:49.671 NotebookApp] Notebook CNN_Slice_Predictor.ipynb is not trusted
+[I 18:38:38.266 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[I 18:40:38.298 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[I 18:40:46.015 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS2.ipynb
+[I 18:42:38.379 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[I 18:44:39.016 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[I 18:46:38.997 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[I 18:48:39.071 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[I 18:50:39.023 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[I 18:52:38.988 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[I 18:54:38.960 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[I 18:56:39.015 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[I 18:58:39.056 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[I 19:00:39.013 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[I 19:02:39.022 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[I 19:04:37.550 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[I 19:06:18.503 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS2.ipynb
+[I 19:08:18.331 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS2.ipynb
+[I 19:10:18.342 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS2.ipynb
+[I 19:12:18.334 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS2.ipynb
+[I 19:14:18.305 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS2.ipynb
+[I 19:16:14.503 NotebookApp] Starting buffering for 55219a3a-b737-4e89-a434-16d2d53d8afe:BE24BAD163444A41835E0E55730933F1
+[I 19:16:17.767 NotebookApp] Starting buffering for 9cc2f4ae-5ae2-468f-b0ea-fe0c8569a399:93CADB46D5B14C2781893E4A0CA6B480
+[I 19:16:18.349 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS2.ipynb
+[I 19:16:22.904 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[I 19:18:23.532 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS2.ipynb
+[I 19:21:59.130 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS2.ipynb
+[I 19:23:59.210 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS2.ipynb
+[I 19:26:26.064 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS2.ipynb
+[I 19:29:04.133 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS2.ipynb
+[I 19:31:46.253 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS2.ipynb
+[I 19:34:24.337 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS2.ipynb
+[I 19:37:56.723 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS2.ipynb
+[I 19:39:56.715 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS2.ipynb
+[I 19:41:56.727 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS2.ipynb
+[I 19:43:56.842 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS2.ipynb
+[I 19:46:26.806 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS2.ipynb
+[I 19:50:14.075 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS2.ipynb
+[I 19:52:14.082 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS2.ipynb
+[I 19:53:11.795 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS2.ipynb
+[I 19:53:15.008 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[I 19:53:17.735 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS.ipynb
+[I 19:53:21.090 NotebookApp] Starting buffering for 47553384-f4fe-4fce-8d65-0fcc7e257148:F3A1FE3051FC47AF8895C0ADF655D41D
+[I 19:53:21.804 NotebookApp] Starting buffering for f8026928-08ff-4042-97ea-4adfa4a6b7ce:E34CB70F69084AF488F27742AB20E4C6
