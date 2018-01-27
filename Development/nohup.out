@@ -1,0 +1,198 @@
+[I 20:31:11.135 NotebookApp] [nb_conda_kernels] enabled, 15 kernels found
+[I 20:31:11.143 NotebookApp] Writing notebook server cookie secret to /run/user/1000/jupyter/notebook_cookie_secret
+[I 20:31:12.306 NotebookApp] [nb_anacondacloud] enabled
+[I 20:31:12.312 NotebookApp] [nb_conda] enabled
+[I 20:31:12.446 NotebookApp] ✓ nbpresent HTML export ENABLED
+[W 20:31:12.446 NotebookApp] ✗ nbpresent PDF export DISABLED: No module named nbbrowserpdf.exporters.pdf
+[I 20:31:13.369 NotebookApp] sparkmagic extension enabled!
+[I 20:31:13.375 NotebookApp] Serving notebooks from local directory: /home/ubuntu/project/MRIDataHarmonisation/Development
+[I 20:31:13.375 NotebookApp] 0 active kernels
+[I 20:31:13.376 NotebookApp] The Jupyter Notebook is running at:
+[I 20:31:13.376 NotebookApp] https://[all ip addresses on your system]:8888/
+[I 20:31:13.376 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 20:32:03.389 NotebookApp] SSL Error on 9 ('5.151.152.139', 2449): [SSL: TLSV1_ALERT_UNKNOWN_CA] tlsv1 alert unknown ca (_ssl.c:590)
+[I 20:32:13.439 NotebookApp] 302 GET / (5.151.152.139) 0.49ms
+[I 20:32:13.459 NotebookApp] 302 GET /tree? (5.151.152.139) 0.72ms
+[I 20:32:17.275 NotebookApp] 302 POST /login?next=%2Ftree%3F (5.151.152.139) 1.12ms
+[W 20:32:18.256 NotebookApp] 404 GET /static/components/moment/locale/en-gb.js?v=20180120203111 (5.151.152.139) 11.86ms referer=https://34.250.152.49:8888/tree?
+[W 20:32:31.807 NotebookApp] Notebook CrossX-3Slice.ipynb is not trusted
+[W 20:32:31.844 NotebookApp] 404 GET /static/components/moment/locale/en-gb.js?v=20180120203111 (5.151.152.139) 1.16ms referer=https://34.250.152.49:8888/notebooks/CrossX-3Slice.ipynb
+[I 20:32:33.523 NotebookApp] Kernel started: 381da643-576d-43fd-9d46-58f33828427b
+[W 20:32:33.562 NotebookApp] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (5.151.152.139) 3.31ms referer=https://34.250.152.49:8888/notebooks/CrossX-3Slice.ipynb
+[I 20:32:33.992 NotebookApp] Adapting to protocol v5.1 for kernel 381da643-576d-43fd-9d46-58f33828427b
+[W 20:32:43.054 NotebookApp] Notebook CNN_Slice_Predictor-AWS1.ipynb is not trusted
+[W 20:32:43.086 NotebookApp] 404 GET /static/components/moment/locale/en-gb.js?v=20180120203111 (5.151.152.139) 1.17ms referer=https://34.250.152.49:8888/notebooks/CNN_Slice_Predictor-AWS1.ipynb
+[W 20:32:43.124 NotebookApp] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (5.151.152.139) 1.19ms referer=https://34.250.152.49:8888/notebooks/CNN_Slice_Predictor-AWS1.ipynb
+[I 20:32:44.789 NotebookApp] Kernel started: 19f0f3db-3948-41af-996d-1f0f67932c6b
+[I 20:32:45.233 NotebookApp] Adapting to protocol v5.1 for kernel 19f0f3db-3948-41af-996d-1f0f67932c6b
+[I 20:34:33.703 NotebookApp] Saving file at /CrossX-3Slice.ipynb
+[W 20:34:33.703 NotebookApp] Notebook CrossX-3Slice.ipynb is not trusted
+[I 20:34:44.914 NotebookApp] Saving file at /CNN_Slice_Predictor-AWS1.ipynb
+[W 20:34:44.915 NotebookApp] Notebook CNN_Slice_Predictor-AWS1.ipynb is not trusted
+[I 20:34:46.623 NotebookApp] Saving file at /CrossX-3Slice.ipynb
+[W 20:34:46.624 NotebookApp] Notebook CrossX-3Slice.ipynb is not trusted
+[I 20:36:33.801 NotebookApp] Saving file at /CrossX-3Slice.ipynb
+[W 20:36:33.802 NotebookApp] Notebook CrossX-3Slice.ipynb is not trusted
+[I 20:37:52.767 NotebookApp] Kernel interrupted: 381da643-576d-43fd-9d46-58f33828427b
+[I 20:38:33.785 NotebookApp] Saving file at /CrossX-3Slice.ipynb
+[W 20:38:33.785 NotebookApp] Notebook CrossX-3Slice.ipynb is not trusted
+[I 20:40:33.801 NotebookApp] Saving file at /CrossX-3Slice.ipynb
+[W 20:40:33.801 NotebookApp] Notebook CrossX-3Slice.ipynb is not trusted
+[I 20:42:33.833 NotebookApp] Saving file at /CrossX-3Slice.ipynb
+[W 20:42:33.834 NotebookApp] Notebook CrossX-3Slice.ipynb is not trusted
+[I 20:42:35.768 NotebookApp] Starting buffering for 19f0f3db-3948-41af-996d-1f0f67932c6b:0789B425E56E43CF84D9FA9E96559E3D
+[W 20:42:41.389 NotebookApp] Notebook CrossX-6Slice.ipynb is not trusted
+[W 20:42:41.506 NotebookApp] 404 GET /static/components/moment/locale/en-gb.js?v=20180120203111 (5.151.152.139) 1.30ms referer=https://34.250.152.49:8888/notebooks/CrossX-6Slice.ipynb
+[W 20:42:41.540 NotebookApp] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (5.151.152.139) 1.70ms referer=https://34.250.152.49:8888/notebooks/CrossX-6Slice.ipynb
+[I 20:42:43.103 NotebookApp] Kernel started: f6691f93-3185-49bd-bb8e-269b24900c47
+[I 20:42:43.572 NotebookApp] Adapting to protocol v5.1 for kernel f6691f93-3185-49bd-bb8e-269b24900c47
+[I 20:44:33.847 NotebookApp] Saving file at /CrossX-3Slice.ipynb
+[W 20:44:33.849 NotebookApp] Notebook CrossX-3Slice.ipynb is not trusted
+[I 20:44:43.278 NotebookApp] Saving file at /CrossX-6Slice.ipynb
+[W 20:44:43.279 NotebookApp] Notebook CrossX-6Slice.ipynb is not trusted
+[I 20:46:06.081 NotebookApp] Saving file at /CrossX-6Slice.ipynb
+[W 20:46:06.082 NotebookApp] Notebook CrossX-6Slice.ipynb is not trusted
+[I 20:46:33.672 NotebookApp] Saving file at /CrossX-3Slice.ipynb
+[W 20:46:33.673 NotebookApp] Notebook CrossX-3Slice.ipynb is not trusted
+[I 20:46:43.182 NotebookApp] Saving file at /CrossX-6Slice.ipynb
+[W 20:46:43.183 NotebookApp] Notebook CrossX-6Slice.ipynb is not trusted
+[I 20:48:33.840 NotebookApp] Saving file at /CrossX-3Slice.ipynb
+[W 20:48:33.841 NotebookApp] Notebook CrossX-3Slice.ipynb is not trusted
+[I 20:48:43.270 NotebookApp] Saving file at /CrossX-6Slice.ipynb
+[W 20:48:43.270 NotebookApp] Notebook CrossX-6Slice.ipynb is not trusted
+[I 20:50:33.827 NotebookApp] Saving file at /CrossX-3Slice.ipynb
+[W 20:50:33.828 NotebookApp] Notebook CrossX-3Slice.ipynb is not trusted
+[I 20:50:43.282 NotebookApp] Saving file at /CrossX-6Slice.ipynb
+[W 20:50:43.283 NotebookApp] Notebook CrossX-6Slice.ipynb is not trusted
+[I 20:52:33.820 NotebookApp] Saving file at /CrossX-3Slice.ipynb
+[W 20:52:33.821 NotebookApp] Notebook CrossX-3Slice.ipynb is not trusted
+[I 20:54:33.822 NotebookApp] Saving file at /CrossX-3Slice.ipynb
+[W 20:54:33.823 NotebookApp] Notebook CrossX-3Slice.ipynb is not trusted
+[I 20:58:33.816 NotebookApp] Saving file at /CrossX-3Slice.ipynb
+[W 20:58:33.817 NotebookApp] Notebook CrossX-3Slice.ipynb is not trusted
+[I 21:00:33.835 NotebookApp] Saving file at /CrossX-3Slice.ipynb
+[W 21:00:33.836 NotebookApp] Notebook CrossX-3Slice.ipynb is not trusted
+[I 21:02:33.938 NotebookApp] Saving file at /CrossX-6Slice.ipynb
+[W 21:02:33.939 NotebookApp] Notebook CrossX-6Slice.ipynb is not trusted
+[I 21:04:34.032 NotebookApp] Saving file at /CrossX-6Slice.ipynb
+[W 21:04:34.033 NotebookApp] Notebook CrossX-6Slice.ipynb is not trusted
+[I 21:06:33.898 NotebookApp] Saving file at /CrossX-6Slice.ipynb
+[W 21:06:33.900 NotebookApp] Notebook CrossX-6Slice.ipynb is not trusted
+[I 21:08:33.907 NotebookApp] Saving file at /CrossX-6Slice.ipynb
+[W 21:08:33.907 NotebookApp] Notebook CrossX-6Slice.ipynb is not trusted
+[I 21:10:33.894 NotebookApp] Saving file at /CrossX-6Slice.ipynb
+[W 21:10:33.895 NotebookApp] Notebook CrossX-6Slice.ipynb is not trusted
+[I 21:12:34.334 NotebookApp] Saving file at /CrossX-6Slice.ipynb
+[W 21:12:34.334 NotebookApp] Notebook CrossX-6Slice.ipynb is not trusted
+[I 21:14:34.300 NotebookApp] Saving file at /CrossX-6Slice.ipynb
+[W 21:14:34.301 NotebookApp] Notebook CrossX-6Slice.ipynb is not trusted
+[I 21:16:34.329 NotebookApp] Saving file at /CrossX-6Slice.ipynb
+[W 21:16:34.331 NotebookApp] Notebook CrossX-6Slice.ipynb is not trusted
+[I 21:18:34.348 NotebookApp] Saving file at /CrossX-6Slice.ipynb
+[W 21:18:34.350 NotebookApp] Notebook CrossX-6Slice.ipynb is not trusted
+[W 21:20:10.187 NotebookApp] Notebook CNN_Slice_Predictor-AWS1.ipynb is not trusted
+[W 21:20:10.295 NotebookApp] 404 GET /static/components/moment/locale/en-gb.js?v=20180120203111 (5.151.152.139) 1.41ms referer=https://34.250.152.49:8888/notebooks/CNN_Slice_Predictor-AWS1.ipynb
+[W 21:20:11.880 NotebookApp] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (5.151.152.139) 2.12ms referer=https://34.250.152.49:8888/notebooks/CNN_Slice_Predictor-AWS1.ipynb
+[I 21:20:12.000 NotebookApp] Adapting to protocol v5.1 for kernel 19f0f3db-3948-41af-996d-1f0f67932c6b
+[I 21:20:34.240 NotebookApp] Saving file at /CrossX-6Slice.ipynb
+[W 21:20:34.242 NotebookApp] Notebook CrossX-6Slice.ipynb is not trusted
+[I 21:20:40.421 NotebookApp] Starting buffering for 19f0f3db-3948-41af-996d-1f0f67932c6b:BC6767B99B3D49038658F2B9AAB12FE0
+[I 21:22:34.329 NotebookApp] Saving file at /CrossX-6Slice.ipynb
+[W 21:22:34.331 NotebookApp] Notebook CrossX-6Slice.ipynb is not trusted
+[W 21:23:53.959 NotebookApp] Notebook CNN_Slice_Predictor-AWS1.ipynb is not trusted
+[W 21:23:54.077 NotebookApp] 404 GET /static/components/moment/locale/en-gb.js?v=20180120203111 (5.151.152.139) 1.38ms referer=https://34.250.152.49:8888/notebooks/CNN_Slice_Predictor-AWS1.ipynb
+[W 21:23:55.650 NotebookApp] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (5.151.152.139) 2.25ms referer=https://34.250.152.49:8888/notebooks/CNN_Slice_Predictor-AWS1.ipynb
+[I 21:23:55.864 NotebookApp] Adapting to protocol v5.1 for kernel 19f0f3db-3948-41af-996d-1f0f67932c6b
+[I 21:24:11.226 NotebookApp] Starting buffering for 19f0f3db-3948-41af-996d-1f0f67932c6b:AE1D669A80BC4B6B8C1A8ACC83961B3A
+[I 21:24:18.507 NotebookApp] Saving file at /CrossX-3Slice.ipynb
+[W 21:24:18.508 NotebookApp] Notebook CrossX-3Slice.ipynb is not trusted
+[I 21:24:34.210 NotebookApp] Saving file at /CrossX-6Slice.ipynb
+[W 21:24:34.211 NotebookApp] Notebook CrossX-6Slice.ipynb is not trusted
+[I 21:26:18.591 NotebookApp] Saving file at /CrossX-3Slice.ipynb
+[W 21:26:18.592 NotebookApp] Notebook CrossX-3Slice.ipynb is not trusted
+[I 21:26:34.317 NotebookApp] Saving file at /CrossX-6Slice.ipynb
+[W 21:26:34.318 NotebookApp] Notebook CrossX-6Slice.ipynb is not trusted
+[I 21:28:34.362 NotebookApp] Saving file at /CrossX-6Slice.ipynb
+[W 21:28:34.363 NotebookApp] Notebook CrossX-6Slice.ipynb is not trusted
+[I 21:30:34.407 NotebookApp] Saving file at /CrossX-6Slice.ipynb
+[W 21:30:34.407 NotebookApp] Notebook CrossX-6Slice.ipynb is not trusted
+[I 21:32:34.372 NotebookApp] Saving file at /CrossX-6Slice.ipynb
+[W 21:32:34.373 NotebookApp] Notebook CrossX-6Slice.ipynb is not trusted
+[I 21:34:34.383 NotebookApp] Saving file at /CrossX-6Slice.ipynb
+[W 21:34:34.384 NotebookApp] Notebook CrossX-6Slice.ipynb is not trusted
+[I 21:35:49.554 NotebookApp] Saving file at /CrossX-3Slice.ipynb
+[W 21:35:49.555 NotebookApp] Notebook CrossX-3Slice.ipynb is not trusted
+[I 21:37:03.034 NotebookApp] Saving file at /CrossX-6Slice.ipynb
+[W 21:37:03.035 NotebookApp] Notebook CrossX-6Slice.ipynb is not trusted
+[I 21:37:49.555 NotebookApp] Saving file at /CrossX-3Slice.ipynb
+[W 21:37:49.556 NotebookApp] Notebook CrossX-3Slice.ipynb is not trusted
+[I 21:39:03.019 NotebookApp] Saving file at /CrossX-6Slice.ipynb
+[W 21:39:03.020 NotebookApp] Notebook CrossX-6Slice.ipynb is not trusted
+[I 21:39:49.504 NotebookApp] Saving file at /CrossX-3Slice.ipynb
+[W 21:39:49.505 NotebookApp] Notebook CrossX-3Slice.ipynb is not trusted
+[I 21:41:03.049 NotebookApp] Saving file at /CrossX-6Slice.ipynb
+[W 21:41:03.051 NotebookApp] Notebook CrossX-6Slice.ipynb is not trusted
+[I 21:41:49.599 NotebookApp] Saving file at /CrossX-3Slice.ipynb
+[W 21:41:49.600 NotebookApp] Notebook CrossX-3Slice.ipynb is not trusted
+[I 21:43:18.705 NotebookApp] Saving file at /CrossX-6Slice.ipynb
+[W 21:43:18.706 NotebookApp] Notebook CrossX-6Slice.ipynb is not trusted
+[I 21:43:49.525 NotebookApp] Saving file at /CrossX-3Slice.ipynb
+[W 21:43:49.527 NotebookApp] Notebook CrossX-3Slice.ipynb is not trusted
+[I 21:45:49.572 NotebookApp] Saving file at /CrossX-3Slice.ipynb
+[W 21:45:49.573 NotebookApp] Notebook CrossX-3Slice.ipynb is not trusted
+[I 21:46:00.894 NotebookApp] Saving file at /CrossX-6Slice.ipynb
+[W 21:46:00.895 NotebookApp] Notebook CrossX-6Slice.ipynb is not trusted
+[I 21:47:49.574 NotebookApp] Saving file at /CrossX-3Slice.ipynb
+[W 21:47:49.575 NotebookApp] Notebook CrossX-3Slice.ipynb is not trusted
+[I 21:49:16.506 NotebookApp] Saving file at /CrossX-6Slice.ipynb
+[W 21:49:16.507 NotebookApp] Notebook CrossX-6Slice.ipynb is not trusted
+[I 21:49:49.584 NotebookApp] Saving file at /CrossX-3Slice.ipynb
+[W 21:49:49.585 NotebookApp] Notebook CrossX-3Slice.ipynb is not trusted
+[I 21:51:16.532 NotebookApp] Saving file at /CrossX-6Slice.ipynb
+[W 21:51:16.534 NotebookApp] Notebook CrossX-6Slice.ipynb is not trusted
+[I 21:51:49.472 NotebookApp] Saving file at /CrossX-3Slice.ipynb
+[W 21:51:49.474 NotebookApp] Notebook CrossX-3Slice.ipynb is not trusted
+[I 21:53:16.524 NotebookApp] Saving file at /CrossX-6Slice.ipynb
+[W 21:53:16.525 NotebookApp] Notebook CrossX-6Slice.ipynb is not trusted
+[I 21:53:49.566 NotebookApp] Saving file at /CrossX-3Slice.ipynb
+[W 21:53:49.568 NotebookApp] Notebook CrossX-3Slice.ipynb is not trusted
+[I 21:55:16.541 NotebookApp] Saving file at /CrossX-6Slice.ipynb
+[W 21:55:16.542 NotebookApp] Notebook CrossX-6Slice.ipynb is not trusted
+[I 21:55:58.843 NotebookApp] Saving file at /CrossX-3Slice.ipynb
+[W 21:55:58.844 NotebookApp] Notebook CrossX-3Slice.ipynb is not trusted
+[I 21:57:16.535 NotebookApp] Saving file at /CrossX-6Slice.ipynb
+[W 21:57:16.535 NotebookApp] Notebook CrossX-6Slice.ipynb is not trusted
+[I 21:58:04.295 NotebookApp] Saving file at /CrossX-3Slice.ipynb
+[W 21:58:04.296 NotebookApp] Notebook CrossX-3Slice.ipynb is not trusted
+[I 21:59:16.539 NotebookApp] Saving file at /CrossX-6Slice.ipynb
+[W 21:59:16.540 NotebookApp] Notebook CrossX-6Slice.ipynb is not trusted
+[I 22:00:04.314 NotebookApp] Saving file at /CrossX-3Slice.ipynb
+[W 22:00:04.314 NotebookApp] Notebook CrossX-3Slice.ipynb is not trusted
+[I 22:01:18.013 NotebookApp] Saving file at /CrossX-6Slice.ipynb
+[W 22:01:18.014 NotebookApp] Notebook CrossX-6Slice.ipynb is not trusted
+[I 22:02:04.297 NotebookApp] Saving file at /CrossX-3Slice.ipynb
+[W 22:02:04.298 NotebookApp] Notebook CrossX-3Slice.ipynb is not trusted
+[I 22:03:18.017 NotebookApp] Saving file at /CrossX-6Slice.ipynb
+[W 22:03:18.018 NotebookApp] Notebook CrossX-6Slice.ipynb is not trusted
+[I 22:04:04.303 NotebookApp] Saving file at /CrossX-3Slice.ipynb
+[W 22:04:04.304 NotebookApp] Notebook CrossX-3Slice.ipynb is not trusted
+[I 22:06:04.307 NotebookApp] Saving file at /CrossX-3Slice.ipynb
+[W 22:06:04.308 NotebookApp] Notebook CrossX-3Slice.ipynb is not trusted
+[I 22:07:18.011 NotebookApp] Saving file at /CrossX-6Slice.ipynb
+[W 22:07:18.011 NotebookApp] Notebook CrossX-6Slice.ipynb is not trusted
+[I 22:09:17.940 NotebookApp] Saving file at /CrossX-6Slice.ipynb
+[W 22:09:17.941 NotebookApp] Notebook CrossX-6Slice.ipynb is not trusted
+[W 22:09:59.182 NotebookApp] Notebook CNN_Slice_Predictor-AWS1.ipynb is not trusted
+[W 22:09:59.309 NotebookApp] 404 GET /static/components/moment/locale/en-gb.js?v=20180120203111 (5.151.152.139) 1.28ms referer=https://34.250.152.49:8888/notebooks/CNN_Slice_Predictor-AWS1.ipynb
+[W 22:10:00.978 NotebookApp] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (5.151.152.139) 1.28ms referer=https://34.250.152.49:8888/notebooks/CNN_Slice_Predictor-AWS1.ipynb
+[I 22:10:01.208 NotebookApp] Adapting to protocol v5.1 for kernel 19f0f3db-3948-41af-996d-1f0f67932c6b
+[I 22:10:15.999 NotebookApp] Starting buffering for 19f0f3db-3948-41af-996d-1f0f67932c6b:418139C6AC764A268D84AFB06972F421
+[I 22:10:25.904 NotebookApp] Saving file at /CrossX-3Slice.ipynb
+[I 22:13:19.462 NotebookApp] Saving file at /CrossX-6Slice.ipynb
+[W 22:13:19.463 NotebookApp] Notebook CrossX-6Slice.ipynb is not trusted
+[I 22:14:54.213 NotebookApp] Starting buffering for f6691f93-3185-49bd-bb8e-269b24900c47:CCB5E46691FA43A2BBFBAD323C0937A8
+[C 22:15:48.725 NotebookApp] received signal 15, stopping
+[I 22:15:48.726 NotebookApp] Shutting down 3 kernels
+[I 22:15:48.928 NotebookApp] Kernel shutdown: 381da643-576d-43fd-9d46-58f33828427b
+[I 22:15:48.929 NotebookApp] Kernel shutdown: 19f0f3db-3948-41af-996d-1f0f67932c6b
+[I 22:15:49.029 NotebookApp] Kernel shutdown: f6691f93-3185-49bd-bb8e-269b24900c47
