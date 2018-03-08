@@ -1,0 +1,258 @@
+[I 16:26:53.485 NotebookApp] [nb_conda_kernels] enabled, 15 kernels found
+[I 16:26:53.493 NotebookApp] Writing notebook server cookie secret to /run/user/1000/jupyter/notebook_cookie_secret
+[I 16:26:54.268 NotebookApp] [nb_anacondacloud] enabled
+[I 16:26:54.273 NotebookApp] [nb_conda] enabled
+[I 16:26:54.355 NotebookApp] ✓ nbpresent HTML export ENABLED
+[W 16:26:54.355 NotebookApp] ✗ nbpresent PDF export DISABLED: No module named nbbrowserpdf.exporters.pdf
+[I 16:26:55.037 NotebookApp] sparkmagic extension enabled!
+[I 16:26:55.044 NotebookApp] Serving notebooks from local directory: /home/ubuntu/project/MRIDataHarmonisation
+[I 16:26:55.044 NotebookApp] 0 active kernels
+[I 16:26:55.044 NotebookApp] The Jupyter Notebook is running at:
+[I 16:26:55.044 NotebookApp] https://[all ip addresses on your system]:8888/
+[I 16:26:55.044 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 16:27:15.407 NotebookApp] SSL Error on 9 ('5.151.152.139', 12644): [SSL: TLSV1_ALERT_UNKNOWN_CA] tlsv1 alert unknown ca (_ssl.c:590)
+[I 16:27:22.890 NotebookApp] 302 GET / (5.151.152.139) 0.53ms
+[I 16:27:22.911 NotebookApp] 302 GET /tree? (5.151.152.139) 0.90ms
+[I 16:27:26.450 NotebookApp] 302 POST /login?next=%2Ftree%3F (5.151.152.139) 4.97ms
+[W 16:27:27.343 NotebookApp] 404 GET /static/components/moment/locale/en-gb.js?v=20180308162653 (5.151.152.139) 12.03ms referer=https://34.243.185.192:8888/tree?
+[W 16:27:30.541 NotebookApp] 404 GET /static/components/moment/locale/en-gb.js?v=20180308162653 (5.151.152.139) 1.29ms referer=https://34.243.185.192:8888/tree/Development
+[W 16:27:37.685 NotebookApp] Notebook Development/Final - AWS.ipynb is not trusted
+[W 16:27:37.722 NotebookApp] 404 GET /static/components/moment/locale/en-gb.js?v=20180308162653 (5.151.152.139) 1.33ms referer=https://34.243.185.192:8888/notebooks/Development/Final%20-%20AWS.ipynb
+[W 16:27:37.814 NotebookApp] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (5.151.152.139) 2.60ms referer=https://34.243.185.192:8888/notebooks/Development/Final%20-%20AWS.ipynb
+[I 16:27:40.328 NotebookApp] Kernel started: 4400ffdd-2114-4980-a83c-15dc7bd31bba
+[I 16:27:40.886 NotebookApp] Adapting to protocol v5.1 for kernel 4400ffdd-2114-4980-a83c-15dc7bd31bba
+[I 16:29:40.487 NotebookApp] Saving file at /Development/Final - AWS.ipynb
+[W 16:29:40.489 NotebookApp] Notebook Development/Final - AWS.ipynb is not trusted
+[W 16:29:44.182 NotebookApp] Notebook Development/Final - AWS - Fully Connected.ipynb is not trusted
+[W 16:29:44.307 NotebookApp] 404 GET /static/components/moment/locale/en-gb.js?v=20180308162653 (5.151.152.139) 1.37ms referer=https://34.243.185.192:8888/notebooks/Development/Final%20-%20AWS%20-%20Fully%20Connected.ipynb
+[W 16:29:44.327 NotebookApp] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (5.151.152.139) 1.31ms referer=https://34.243.185.192:8888/notebooks/Development/Final%20-%20AWS%20-%20Fully%20Connected.ipynb
+[I 16:29:46.551 NotebookApp] Kernel started: f684e29e-c6cf-49e5-bc22-7f135b07af21
+[I 16:29:47.082 NotebookApp] Adapting to protocol v5.1 for kernel f684e29e-c6cf-49e5-bc22-7f135b07af21
+[W 16:30:39.134 NotebookApp] Notebook Development/Final - Patchified.ipynb is not trusted
+[W 16:30:39.293 NotebookApp] 404 GET /static/components/moment/locale/en-gb.js?v=20180308162653 (5.151.152.139) 2.07ms referer=https://34.243.185.192:8888/notebooks/Development/Final%20-%20Patchified.ipynb
+[W 16:30:39.312 NotebookApp] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (5.151.152.139) 2.24ms referer=https://34.243.185.192:8888/notebooks/Development/Final%20-%20Patchified.ipynb
+[I 16:30:41.890 NotebookApp] Kernel started: c0de43da-abe3-4ee3-bf10-fdaac312f469
+[I 16:30:42.484 NotebookApp] Adapting to protocol v5.1 for kernel c0de43da-abe3-4ee3-bf10-fdaac312f469
+[I 16:31:01.441 NotebookApp] Starting buffering for c0de43da-abe3-4ee3-bf10-fdaac312f469:7474C754DB8646548344B71433E870DE
+[I 16:31:42.092 NotebookApp] Saving file at /Development/Final - AWS.ipynb
+[W 16:31:42.093 NotebookApp] Notebook Development/Final - AWS.ipynb is not trusted
+[I 16:31:48.162 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected.ipynb
+[W 16:31:48.163 NotebookApp] Notebook Development/Final - AWS - Fully Connected.ipynb is not trusted
+[I 16:33:42.148 NotebookApp] Saving file at /Development/Final - AWS.ipynb
+[W 16:33:42.149 NotebookApp] Notebook Development/Final - AWS.ipynb is not trusted
+[I 16:33:48.147 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected.ipynb
+[W 16:33:48.148 NotebookApp] Notebook Development/Final - AWS - Fully Connected.ipynb is not trusted
+[I 16:35:42.146 NotebookApp] Saving file at /Development/Final - AWS.ipynb
+[W 16:35:42.147 NotebookApp] Notebook Development/Final - AWS.ipynb is not trusted
+[I 16:35:48.253 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected.ipynb
+[W 16:35:48.254 NotebookApp] Notebook Development/Final - AWS - Fully Connected.ipynb is not trusted
+[I 16:37:42.130 NotebookApp] Saving file at /Development/Final - AWS.ipynb
+[W 16:37:42.131 NotebookApp] Notebook Development/Final - AWS.ipynb is not trusted
+[I 16:37:48.244 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected.ipynb
+[W 16:37:48.245 NotebookApp] Notebook Development/Final - AWS - Fully Connected.ipynb is not trusted
+[I 16:39:24.788 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected.ipynb
+[W 16:39:24.789 NotebookApp] Notebook Development/Final - AWS - Fully Connected.ipynb is not trusted
+[I 16:39:33.097 NotebookApp] Saving file at /Development/Final - AWS.ipynb
+[W 16:39:33.098 NotebookApp] Notebook Development/Final - AWS.ipynb is not trusted
+[I 16:39:34.978 NotebookApp] Saving file at /Development/Final - AWS.ipynb
+[W 16:39:34.979 NotebookApp] Notebook Development/Final - AWS.ipynb is not trusted
+[I 16:39:37.047 NotebookApp] Starting buffering for 4400ffdd-2114-4980-a83c-15dc7bd31bba:5D7031EABF024D1D82D8EFC0B48F9AB4
+[W 16:39:42.533 NotebookApp] 404 GET /static/components/moment/locale/en-gb.js?v=20180308162653 (5.151.152.139) 1.48ms referer=https://34.243.185.192:8888/notebooks/Development/Final%20-%20AWS%20-%20Exclude%20Artifacts.ipynb
+[W 16:39:42.553 NotebookApp] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (5.151.152.139) 1.41ms referer=https://34.243.185.192:8888/notebooks/Development/Final%20-%20AWS%20-%20Exclude%20Artifacts.ipynb
+[I 16:39:44.657 NotebookApp] Kernel started: 65accc77-08d7-42ef-aa89-3c44a3f0b29c
+[I 16:39:45.134 NotebookApp] Adapting to protocol v5.1 for kernel 65accc77-08d7-42ef-aa89-3c44a3f0b29c
+[I 16:41:29.851 NotebookApp] Copying Development/Final - AWS - Fully Connected.ipynb to /Development
+[W 16:41:29.894 NotebookApp] Notebook Development/Final - AWS - Fully Connected.ipynb is not trusted
+[W 16:41:29.929 NotebookApp] Notebook Development/Final - AWS - Fully Connected-Copy1.ipynb is not trusted
+[W 16:41:31.237 NotebookApp] Notebook Development/Final - AWS - Fully Connected-Copy1.ipynb is not trusted
+[W 16:41:31.395 NotebookApp] 404 GET /static/components/moment/locale/en-gb.js?v=20180308162653 (5.151.152.139) 1.44ms referer=https://34.243.185.192:8888/notebooks/Development/Final%20-%20AWS%20-%20Fully%20Connected-Copy1.ipynb
+[W 16:41:31.416 NotebookApp] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (5.151.152.139) 1.66ms referer=https://34.243.185.192:8888/notebooks/Development/Final%20-%20AWS%20-%20Fully%20Connected-Copy1.ipynb
+[I 16:41:34.044 NotebookApp] Kernel started: cb1f4c74-51d1-4536-a861-aa5ac7c81225
+[I 16:41:34.523 NotebookApp] Adapting to protocol v5.1 for kernel cb1f4c74-51d1-4536-a861-aa5ac7c81225
+[I 16:41:44.796 NotebookApp] Saving file at /Development/Final - AWS - Exclude Artifacts.ipynb
+[I 16:43:08.323 NotebookApp] Starting buffering for 65accc77-08d7-42ef-aa89-3c44a3f0b29c:BB77ED4E8C4844728824CECAF095DDFA
+[I 16:43:16.299 NotebookApp] Kernel shutdown: 65accc77-08d7-42ef-aa89-3c44a3f0b29c
+[W 16:43:16.301 NotebookApp] delete /Development/Final - AWS - Exclude Artifacts.ipynb
+[I 16:43:21.661 NotebookApp] Starting buffering for f684e29e-c6cf-49e5-bc22-7f135b07af21:341A8BD2BD5946B2AAB530BFDD9BEBC7
+[I 16:43:34.189 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 16:43:34.190 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 16:45:34.312 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 16:45:34.313 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 16:47:34.276 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 16:47:34.277 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 16:49:34.301 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 16:49:34.302 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 16:51:34.311 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 16:51:34.313 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 16:53:34.297 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 16:53:34.298 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 16:55:34.529 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 16:55:34.530 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 16:57:34.306 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 16:57:34.307 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 16:59:34.310 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 16:59:34.311 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 17:01:34.338 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 17:01:34.339 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 17:03:34.324 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 17:03:34.325 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 17:05:34.332 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 17:05:34.334 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 17:07:34.362 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 17:07:34.363 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 17:09:34.364 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 17:09:34.366 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 17:11:34.341 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 17:11:34.342 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 17:13:34.377 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 17:13:34.378 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 17:15:34.384 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 17:15:34.385 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 17:17:34.389 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 17:17:34.391 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 17:19:34.386 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 17:19:34.388 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 17:21:34.387 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 17:21:34.388 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 17:23:34.420 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 17:23:34.421 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 17:25:34.410 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 17:25:34.411 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 17:27:34.416 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 17:27:34.417 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 17:29:34.681 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 17:29:34.682 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 17:31:34.425 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 17:31:34.426 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 17:33:34.524 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 17:33:34.525 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 17:35:34.434 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 17:35:34.435 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 17:37:34.435 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 17:37:34.437 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 17:39:34.430 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 17:39:34.431 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 17:41:34.450 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 17:41:34.451 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 17:43:34.454 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 17:43:34.456 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 17:45:34.465 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 17:45:34.466 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 17:47:34.493 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 17:47:34.494 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 17:49:34.469 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 17:49:34.471 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 17:51:34.467 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 17:51:34.468 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 17:53:34.472 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 17:53:34.473 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 17:55:34.486 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 17:55:34.488 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 17:57:34.469 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 17:57:34.470 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 17:59:34.485 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 17:59:34.487 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 18:01:34.494 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 18:01:34.496 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 18:03:34.510 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 18:03:34.511 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 18:05:34.523 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 18:05:34.524 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 18:07:34.558 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 18:07:34.559 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 18:09:34.532 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 18:09:34.534 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 18:11:34.539 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 18:11:34.540 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 18:13:34.535 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 18:13:34.536 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 18:15:34.577 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 18:15:34.579 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 18:17:34.517 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 18:17:34.518 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 18:19:34.646 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 18:19:34.648 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 18:21:34.568 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 18:21:34.569 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 18:23:34.537 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 18:23:34.538 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 18:25:34.540 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 18:25:34.541 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 18:27:34.543 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 18:27:34.544 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 18:29:34.542 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 18:29:34.543 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 18:31:34.568 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 18:31:34.569 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 18:33:34.560 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 18:33:34.561 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 18:35:34.568 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 18:35:34.569 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 18:37:34.592 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 18:37:34.593 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 18:45:36.617 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 18:45:36.619 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 18:47:36.602 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 18:47:36.603 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 18:49:36.715 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 18:49:36.716 NotebookApp] Notebook Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb is not trusted
+[I 18:51:36.778 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[I 18:53:36.617 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[I 18:55:36.612 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[I 18:57:40.903 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[I 18:59:52.564 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[I 19:03:14.304 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[I 19:05:14.330 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[I 19:07:14.342 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[I 19:09:16.936 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[I 19:11:37.331 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[I 19:13:37.300 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[I 19:15:37.268 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[I 19:17:39.675 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[I 19:19:50.198 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[I 19:23:05.567 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[I 19:25:45.587 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[I 19:28:25.798 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[I 19:30:25.724 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[I 19:32:25.667 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[I 19:34:34.789 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[I 19:36:34.804 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[I 19:38:34.812 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[I 19:40:34.833 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[I 19:42:46.026 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[I 19:44:34.847 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[I 19:46:34.851 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[I 19:48:34.832 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[I 19:50:34.923 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[I 19:52:34.915 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[I 19:54:34.850 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[I 19:56:34.832 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[I 19:58:34.889 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[I 20:00:34.882 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[I 20:02:36.401 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[I 20:04:39.074 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[I 20:06:38.227 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[I 20:08:34.883 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[I 20:10:34.916 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[I 20:12:34.913 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[I 20:14:34.935 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[I 20:16:34.906 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[I 20:18:34.944 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[I 20:20:34.915 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[I 20:22:34.996 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[I 20:24:34.937 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[I 20:26:34.943 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[I 20:28:34.947 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[I 20:30:34.945 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[I 20:32:34.964 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[I 20:34:34.956 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[I 20:36:34.978 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[I 20:38:34.992 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[I 20:40:35.000 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[W 20:42:02.839 NotebookApp] Notebook Development/Final - AWS.ipynb is not trusted
+[W 20:42:02.956 NotebookApp] 404 GET /static/components/moment/locale/en-gb.js?v=20180308162653 (5.151.152.139) 1.45ms referer=https://34.243.185.192:8888/notebooks/Development/Final%20-%20AWS.ipynb
+[W 20:42:05.759 NotebookApp] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (5.151.152.139) 1.56ms referer=https://34.243.185.192:8888/notebooks/Development/Final%20-%20AWS.ipynb
+[I 20:42:05.910 NotebookApp] Adapting to protocol v5.1 for kernel 4400ffdd-2114-4980-a83c-15dc7bd31bba
+[I 20:42:34.886 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
+[I 20:44:18.562 NotebookApp] Starting buffering for 4400ffdd-2114-4980-a83c-15dc7bd31bba:11418BC07CD54A4BB20A9D1222EB6697
+[I 20:44:21.215 NotebookApp] Starting buffering for cb1f4c74-51d1-4536-a861-aa5ac7c81225:1EA272C1BDCF41FC84402A58F8FF6A8C
