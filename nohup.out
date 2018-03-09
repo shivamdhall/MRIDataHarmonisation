@@ -256,3 +256,264 @@
 [I 20:42:34.886 NotebookApp] Saving file at /Development/Final - AWS - Fully Connected - Exclude Artifacts.ipynb
 [I 20:44:18.562 NotebookApp] Starting buffering for 4400ffdd-2114-4980-a83c-15dc7bd31bba:11418BC07CD54A4BB20A9D1222EB6697
 [I 20:44:21.215 NotebookApp] Starting buffering for cb1f4c74-51d1-4536-a861-aa5ac7c81225:1EA272C1BDCF41FC84402A58F8FF6A8C
+[C 20:46:47.043 NotebookApp] received signal 15, stopping
+[I 20:46:47.044 NotebookApp] Shutting down 4 kernels
+[I 20:46:47.277 NotebookApp] Kernel shutdown: f684e29e-c6cf-49e5-bc22-7f135b07af21
+[I 20:46:47.277 NotebookApp] Kernel shutdown: c0de43da-abe3-4ee3-bf10-fdaac312f469
+[I 20:46:47.378 NotebookApp] Kernel shutdown: 4400ffdd-2114-4980-a83c-15dc7bd31bba
+[I 20:46:47.378 NotebookApp] Kernel shutdown: cb1f4c74-51d1-4536-a861-aa5ac7c81225
+[I 12:26:21.569 NotebookApp] [nb_conda_kernels] enabled, 15 kernels found
+[I 12:26:21.576 NotebookApp] Writing notebook server cookie secret to /run/user/1000/jupyter/notebook_cookie_secret
+[I 12:26:22.537 NotebookApp] [nb_anacondacloud] enabled
+[I 12:26:22.543 NotebookApp] [nb_conda] enabled
+[I 12:26:22.622 NotebookApp] ✓ nbpresent HTML export ENABLED
+[W 12:26:22.622 NotebookApp] ✗ nbpresent PDF export DISABLED: No module named nbbrowserpdf.exporters.pdf
+[I 12:26:23.369 NotebookApp] sparkmagic extension enabled!
+[I 12:26:23.374 NotebookApp] Serving notebooks from local directory: /home/ubuntu/project/MRIDataHarmonisation
+[I 12:26:23.374 NotebookApp] 0 active kernels
+[I 12:26:23.374 NotebookApp] The Jupyter Notebook is running at:
+[I 12:26:23.374 NotebookApp] https://[all ip addresses on your system]:8888/
+[I 12:26:23.374 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 12:26:39.756 NotebookApp] SSL Error on 9 ('144.82.8.164', 53565): [SSL: TLSV1_ALERT_UNKNOWN_CA] tlsv1 alert unknown ca (_ssl.c:590)
+[I 12:26:48.103 NotebookApp] 302 GET / (144.82.8.164) 0.50ms
+[I 12:26:48.126 NotebookApp] 302 GET /tree? (144.82.8.164) 0.74ms
+[I 12:26:51.742 NotebookApp] 302 POST /login?next=%2Ftree%3F (144.82.8.164) 1.11ms
+[W 12:26:52.399 NotebookApp] 404 GET /static/components/moment/locale/en-gb.js?v=20180309122621 (144.82.8.164) 14.65ms referer=https://34.253.194.231:8888/tree?
+[W 12:26:55.397 NotebookApp] 404 GET /static/components/moment/locale/en-gb.js?v=20180309122621 (144.82.8.164) 1.16ms referer=https://34.253.194.231:8888/tree/Development
+[W 12:26:58.624 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[W 12:26:58.663 NotebookApp] 404 GET /static/components/moment/locale/en-gb.js?v=20180309122621 (144.82.8.164) 1.25ms referer=https://34.253.194.231:8888/notebooks/Development/Final%20-%20AWS%20-%20RNN.ipynb
+[W 12:26:58.741 NotebookApp] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (144.82.8.164) 2.40ms referer=https://34.253.194.231:8888/notebooks/Development/Final%20-%20AWS%20-%20RNN.ipynb
+[I 12:27:01.868 NotebookApp] Kernel started: 9ce4f768-138d-4a39-9a63-eb6bdfe03da2
+[I 12:27:02.336 NotebookApp] Adapting to protocol v5.1 for kernel 9ce4f768-138d-4a39-9a63-eb6bdfe03da2
+[I 12:27:16.210 NotebookApp] Kernel interrupted: 9ce4f768-138d-4a39-9a63-eb6bdfe03da2
+[I 12:29:02.108 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 12:29:02.109 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 12:31:02.132 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 12:31:02.134 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 12:33:02.151 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 12:33:02.152 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 12:35:02.281 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 12:35:02.282 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 12:35:32.356 NotebookApp] Kernel interrupted: 9ce4f768-138d-4a39-9a63-eb6bdfe03da2
+[I 12:37:02.118 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 12:37:02.119 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 12:41:02.142 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 12:41:02.144 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 12:45:02.200 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 12:45:02.201 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 12:49:02.589 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 12:49:02.590 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 12:51:15.693 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 12:51:15.694 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 12:55:15.702 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 12:55:15.703 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 12:59:21.047 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 12:59:21.048 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 13:03:35.904 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 13:03:35.905 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 13:07:35.938 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 13:07:35.939 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 13:13:32.592 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 13:13:32.593 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 13:17:09.375 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 13:17:09.376 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 13:19:32.805 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 13:19:32.806 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 13:23:50.689 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 13:23:50.690 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 13:25:50.679 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 13:25:50.680 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[W 13:28:02.337 NotebookApp] WebSocket ping timeout after 119982 ms.
+[I 13:28:07.339 NotebookApp] Starting buffering for 9ce4f768-138d-4a39-9a63-eb6bdfe03da2:D006C0CAE7174E038ACC8BB80390E58E
+[I 14:19:35.485 NotebookApp] Adapting to protocol v5.1 for kernel 9ce4f768-138d-4a39-9a63-eb6bdfe03da2
+[I 14:19:35.486 NotebookApp] Restoring connection for 9ce4f768-138d-4a39-9a63-eb6bdfe03da2:D006C0CAE7174E038ACC8BB80390E58E
+[I 14:19:35.486 NotebookApp] Replaying 14 buffered messages
+[I 14:20:59.486 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 14:20:59.487 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[W 14:24:05.486 NotebookApp] WebSocket ping timeout after 119924 ms.
+[I 14:24:10.489 NotebookApp] Starting buffering for 9ce4f768-138d-4a39-9a63-eb6bdfe03da2:D006C0CAE7174E038ACC8BB80390E58E
+[I 15:25:53.022 NotebookApp] Adapting to protocol v5.1 for kernel 9ce4f768-138d-4a39-9a63-eb6bdfe03da2
+[I 15:25:53.023 NotebookApp] Restoring connection for 9ce4f768-138d-4a39-9a63-eb6bdfe03da2:D006C0CAE7174E038ACC8BB80390E58E
+[I 15:25:53.023 NotebookApp] Replaying 16 buffered messages
+[I 15:26:22.844 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 15:26:22.846 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[W 15:28:53.023 NotebookApp] WebSocket ping timeout after 119973 ms.
+[I 15:28:58.025 NotebookApp] Starting buffering for 9ce4f768-138d-4a39-9a63-eb6bdfe03da2:D006C0CAE7174E038ACC8BB80390E58E
+[I 15:39:27.110 NotebookApp] Adapting to protocol v5.1 for kernel 9ce4f768-138d-4a39-9a63-eb6bdfe03da2
+[I 15:39:27.111 NotebookApp] Restoring connection for 9ce4f768-138d-4a39-9a63-eb6bdfe03da2:D006C0CAE7174E038ACC8BB80390E58E
+[I 15:39:27.111 NotebookApp] Replaying 4 buffered messages
+[I 15:40:27.628 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 15:40:27.630 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 15:42:57.546 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 15:42:57.547 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 15:46:26.956 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 15:46:26.957 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 15:50:27.057 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 15:50:27.058 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[W 15:53:27.111 NotebookApp] WebSocket ping timeout after 119954 ms.
+[I 15:53:32.113 NotebookApp] Starting buffering for 9ce4f768-138d-4a39-9a63-eb6bdfe03da2:D006C0CAE7174E038ACC8BB80390E58E
+[I 15:59:30.571 NotebookApp] Adapting to protocol v5.1 for kernel 9ce4f768-138d-4a39-9a63-eb6bdfe03da2
+[I 15:59:30.571 NotebookApp] Restoring connection for 9ce4f768-138d-4a39-9a63-eb6bdfe03da2:D006C0CAE7174E038ACC8BB80390E58E
+[I 15:59:30.571 NotebookApp] Replaying 2 buffered messages
+[I 16:00:07.425 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 16:00:07.426 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 16:02:07.467 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 16:02:07.468 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 16:07:12.673 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 16:07:12.674 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[W 16:07:28.501 NotebookApp] Notebook Development/Final - AWS.ipynb is not trusted
+[W 16:07:28.591 NotebookApp] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (144.82.8.164) 1.49ms referer=https://34.253.194.231:8888/notebooks/Development/Final%20-%20AWS.ipynb
+[W 16:07:28.598 NotebookApp] 404 GET /static/components/moment/locale/en-gb.js?v=20180309122621 (144.82.8.164) 1.06ms referer=https://34.253.194.231:8888/notebooks/Development/Final%20-%20AWS.ipynb
+[I 16:07:31.147 NotebookApp] Kernel started: 204bb735-1e52-4667-8f2e-3cf61d3041bc
+[I 16:07:31.606 NotebookApp] Adapting to protocol v5.1 for kernel 204bb735-1e52-4667-8f2e-3cf61d3041bc
+[I 16:09:12.483 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 16:09:12.484 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 16:15:07.560 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 16:15:07.561 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 16:18:20.785 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 16:18:20.786 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 16:21:20.773 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 16:21:20.774 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 16:27:23.452 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 16:27:23.453 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 16:29:23.445 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 16:29:23.446 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[W 16:34:00.573 NotebookApp] WebSocket ping timeout after 119922 ms.
+[W 16:34:01.607 NotebookApp] WebSocket ping timeout after 119985 ms.
+[I 16:34:05.574 NotebookApp] Starting buffering for 9ce4f768-138d-4a39-9a63-eb6bdfe03da2:D006C0CAE7174E038ACC8BB80390E58E
+[I 16:34:06.608 NotebookApp] Starting buffering for 204bb735-1e52-4667-8f2e-3cf61d3041bc:39EC4AE501CE4F928031474088DD579D
+[I 19:16:30.265 NotebookApp] Adapting to protocol v5.1 for kernel 9ce4f768-138d-4a39-9a63-eb6bdfe03da2
+[I 19:16:30.265 NotebookApp] Restoring connection for 9ce4f768-138d-4a39-9a63-eb6bdfe03da2:D006C0CAE7174E038ACC8BB80390E58E
+[I 19:16:30.266 NotebookApp] Replaying 45 buffered messages
+[I 19:16:30.338 NotebookApp] Adapting to protocol v5.1 for kernel 204bb735-1e52-4667-8f2e-3cf61d3041bc
+[I 19:16:30.339 NotebookApp] Restoring connection for 204bb735-1e52-4667-8f2e-3cf61d3041bc:39EC4AE501CE4F928031474088DD579D
+[I 19:17:34.564 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 19:17:34.565 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 19:19:28.026 NotebookApp] Starting buffering for 204bb735-1e52-4667-8f2e-3cf61d3041bc:39EC4AE501CE4F928031474088DD579D
+[I 19:19:34.589 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 19:19:34.590 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[W 19:24:00.266 NotebookApp] WebSocket ping timeout after 119909 ms.
+[I 19:24:05.267 NotebookApp] Starting buffering for 9ce4f768-138d-4a39-9a63-eb6bdfe03da2:D006C0CAE7174E038ACC8BB80390E58E
+[I 19:44:06.651 NotebookApp] Adapting to protocol v5.1 for kernel 9ce4f768-138d-4a39-9a63-eb6bdfe03da2
+[I 19:44:06.652 NotebookApp] Restoring connection for 9ce4f768-138d-4a39-9a63-eb6bdfe03da2:D006C0CAE7174E038ACC8BB80390E58E
+[I 19:44:06.652 NotebookApp] Replaying 5 buffered messages
+[I 19:45:25.028 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 19:45:25.029 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 19:47:25.012 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 19:47:25.013 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 19:51:34.168 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 19:51:34.169 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 19:56:24.921 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 19:56:24.922 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 19:58:44.824 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 19:58:44.825 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 20:03:24.832 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 20:03:24.833 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 20:08:04.851 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 20:08:04.852 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 20:12:04.827 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 20:12:04.828 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 20:16:50.732 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 20:16:50.733 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 20:19:44.832 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 20:19:44.833 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 20:24:24.829 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 20:24:24.830 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 20:26:44.835 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 20:26:44.836 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 20:31:24.845 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 20:31:24.846 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 20:36:04.859 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 20:36:04.860 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 20:38:24.861 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 20:38:24.862 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 20:43:04.929 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 20:43:04.930 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 20:45:30.686 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 20:45:30.687 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 20:50:04.881 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 20:50:04.882 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 20:52:24.875 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 20:52:24.876 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 20:54:44.905 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 20:54:44.906 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 20:59:24.944 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 20:59:24.946 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 21:01:58.306 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 21:01:58.307 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 21:05:58.321 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 21:05:58.322 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 21:09:59.546 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 21:09:59.547 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 21:15:45.016 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 21:15:45.017 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 21:18:06.970 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 21:18:06.971 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 21:22:44.962 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 21:22:44.963 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 21:25:07.018 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 21:25:07.019 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 21:29:07.024 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 21:29:07.025 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 21:33:07.044 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 21:33:07.045 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 21:37:27.196 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 21:37:27.197 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 21:41:27.031 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 21:41:27.032 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 21:45:50.696 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 21:45:50.697 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 21:48:25.046 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 21:48:25.047 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 21:53:05.756 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 21:53:05.757 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 21:57:45.025 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 21:57:45.026 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 21:59:17.366 NotebookApp] Kernel interrupted: 9ce4f768-138d-4a39-9a63-eb6bdfe03da2
+[W 21:59:28.066 NotebookApp] Notebook Development/Final - AWS - Fully Connected.ipynb is not trusted
+[W 21:59:28.160 NotebookApp] 404 GET /static/components/moment/locale/en-gb.js?v=20180309122621 (5.151.152.139) 1.39ms referer=https://34.253.194.231:8888/notebooks/Development/Final%20-%20AWS%20-%20Fully%20Connected.ipynb
+[W 21:59:28.182 NotebookApp] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (5.151.152.139) 1.58ms referer=https://34.253.194.231:8888/notebooks/Development/Final%20-%20AWS%20-%20Fully%20Connected.ipynb
+[I 21:59:30.927 NotebookApp] Kernel started: d10e3428-14a7-4655-894e-e640813c3993
+[I 21:59:31.424 NotebookApp] Adapting to protocol v5.1 for kernel d10e3428-14a7-4655-894e-e640813c3993
+[I 21:59:45.027 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 21:59:45.028 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 21:59:59.580 NotebookApp] Starting buffering for d10e3428-14a7-4655-894e-e640813c3993:0DDE5883284548A18C77AE6B9C6C5807
+[I 22:01:45.053 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 22:01:45.054 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 22:03:45.058 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 22:03:45.059 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 22:05:45.128 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 22:05:45.129 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 22:10:11.252 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 22:10:11.253 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 22:12:11.209 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 22:12:11.211 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 22:14:11.108 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 22:14:11.109 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[W 22:15:18.305 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[W 22:15:18.519 NotebookApp] 404 GET /static/components/moment/locale/en-gb.js?v=20180309122621 (5.151.152.139) 1.38ms referer=https://34.253.194.231:8888/notebooks/Development/Final%20-%20AWS%20-%20RNN.ipynb
+[W 22:15:18.574 NotebookApp] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (5.151.152.139) 1.38ms referer=https://34.253.194.231:8888/notebooks/Development/Final%20-%20AWS%20-%20RNN.ipynb
+[I 22:15:21.203 NotebookApp] Adapting to protocol v5.1 for kernel 9ce4f768-138d-4a39-9a63-eb6bdfe03da2
+[W 22:15:43.426 NotebookApp] Notebook Development/Final - AWS.ipynb is not trusted
+[W 22:15:43.464 NotebookApp] 404 GET /static/components/moment/locale/en-gb.js?v=20180309122621 (5.151.152.139) 1.25ms referer=https://34.253.194.231:8888/notebooks/Development/Final%20-%20AWS.ipynb
+[W 22:15:43.575 NotebookApp] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (5.151.152.139) 1.27ms referer=https://34.253.194.231:8888/notebooks/Development/Final%20-%20AWS.ipynb
+[I 22:15:46.059 NotebookApp] Adapting to protocol v5.1 for kernel 204bb735-1e52-4667-8f2e-3cf61d3041bc
+[I 22:16:11.001 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 22:16:11.002 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 22:18:11.163 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 22:18:11.164 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 22:20:11.206 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 22:20:11.207 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 22:22:11.160 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 22:22:11.161 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 22:24:30.682 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 22:24:30.683 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 22:27:35.386 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 22:27:35.387 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 22:46:46.111 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[W 22:46:46.112 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[I 22:50:46.101 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[I 22:50:52.933 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[I 22:51:29.625 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
+[I 22:51:32.710 NotebookApp] Starting buffering for 9ce4f768-138d-4a39-9a63-eb6bdfe03da2:D006C0CAE7174E038ACC8BB80390E58E
+[I 22:51:34.246 NotebookApp] Starting buffering for 204bb735-1e52-4667-8f2e-3cf61d3041bc:41742C080D2B488C92DE82E2E751E397
