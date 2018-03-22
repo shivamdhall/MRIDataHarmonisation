@@ -517,3 +517,8 @@
 [I 22:51:29.625 NotebookApp] Saving file at /Development/Final - AWS - RNN.ipynb
 [I 22:51:32.710 NotebookApp] Starting buffering for 9ce4f768-138d-4a39-9a63-eb6bdfe03da2:D006C0CAE7174E038ACC8BB80390E58E
 [I 22:51:34.246 NotebookApp] Starting buffering for 204bb735-1e52-4667-8f2e-3cf61d3041bc:41742C080D2B488C92DE82E2E751E397
+[C 22:53:11.574 NotebookApp] received signal 15, stopping
+[I 22:53:11.575 NotebookApp] Shutting down 3 kernels
+[I 22:53:12.077 NotebookApp] Kernel shutdown: 9ce4f768-138d-4a39-9a63-eb6bdfe03da2
+[I 22:53:12.078 NotebookApp] Kernel shutdown: d10e3428-14a7-4655-894e-e640813c3993
+[I 22:53:12.078 NotebookApp] Kernel shutdown: 204bb735-1e52-4667-8f2e-3cf61d3041bc
