@@ -522,3 +522,86 @@
 [I 22:53:12.077 NotebookApp] Kernel shutdown: 9ce4f768-138d-4a39-9a63-eb6bdfe03da2
 [I 22:53:12.078 NotebookApp] Kernel shutdown: d10e3428-14a7-4655-894e-e640813c3993
 [I 22:53:12.078 NotebookApp] Kernel shutdown: 204bb735-1e52-4667-8f2e-3cf61d3041bc
+[I 16:43:55.333 NotebookApp] [nb_conda_kernels] enabled, 15 kernels found
+[I 16:43:55.341 NotebookApp] Writing notebook server cookie secret to /run/user/1000/jupyter/notebook_cookie_secret
+[I 16:43:56.175 NotebookApp] [nb_anacondacloud] enabled
+[I 16:43:56.180 NotebookApp] [nb_conda] enabled
+[I 16:43:56.262 NotebookApp] ✓ nbpresent HTML export ENABLED
+[W 16:43:56.262 NotebookApp] ✗ nbpresent PDF export DISABLED: No module named nbbrowserpdf.exporters.pdf
+[I 16:43:56.959 NotebookApp] sparkmagic extension enabled!
+[I 16:43:56.964 NotebookApp] Serving notebooks from local directory: /home/ubuntu/project/MRIDataHarmonisation
+[I 16:43:56.964 NotebookApp] 0 active kernels
+[I 16:43:56.964 NotebookApp] The Jupyter Notebook is running at:
+[I 16:43:56.964 NotebookApp] https://[all ip addresses on your system]:8888/
+[I 16:43:56.964 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 16:44:20.968 NotebookApp] SSL Error on 9 ('5.151.152.139', 24712): [SSL: TLSV1_ALERT_UNKNOWN_CA] tlsv1 alert unknown ca (_ssl.c:590)
+[I 16:44:29.975 NotebookApp] 302 GET / (5.151.152.139) 0.62ms
+[I 16:44:29.996 NotebookApp] 302 GET /tree? (5.151.152.139) 0.85ms
+[I 16:44:33.528 NotebookApp] 302 POST /login?next=%2Ftree%3F (5.151.152.139) 1.33ms
+[W 16:44:34.230 NotebookApp] 404 GET /static/components/moment/locale/en-gb.js?v=20180322164355 (5.151.152.139) 11.93ms referer=https://52.17.103.4:8888/tree?
+[W 16:44:36.839 NotebookApp] 404 GET /static/components/moment/locale/en-gb.js?v=20180322164355 (5.151.152.139) 1.35ms referer=https://52.17.103.4:8888/tree/Development
+[W 16:44:44.653 NotebookApp] Notebook Development/Final - AWS - Cycle-GAN.ipynb is not trusted
+[W 16:44:44.678 NotebookApp] 404 GET /static/components/moment/locale/en-gb.js?v=20180322164355 (5.151.152.139) 1.28ms referer=https://52.17.103.4:8888/notebooks/Development/Final%20-%20AWS%20-%20Cycle-GAN.ipynb
+[W 16:44:44.747 NotebookApp] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (5.151.152.139) 2.36ms referer=https://52.17.103.4:8888/notebooks/Development/Final%20-%20AWS%20-%20Cycle-GAN.ipynb
+[I 16:44:46.360 NotebookApp] Kernel started: 6704ffec-ea69-4db5-8f0d-9c20f9f7b516
+[I 16:44:46.844 NotebookApp] Adapting to protocol v5.1 for kernel 6704ffec-ea69-4db5-8f0d-9c20f9f7b516
+[W 16:45:29.554 NotebookApp] Notebook Development/Final - AWS - RNN.ipynb is not trusted
+[W 16:45:29.594 NotebookApp] 404 GET /static/components/moment/locale/en-gb.js?v=20180322164355 (5.151.152.139) 1.60ms referer=https://52.17.103.4:8888/notebooks/Development/Final%20-%20AWS%20-%20RNN.ipynb
+[W 16:45:29.663 NotebookApp] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (5.151.152.139) 1.42ms referer=https://52.17.103.4:8888/notebooks/Development/Final%20-%20AWS%20-%20RNN.ipynb
+[I 16:45:31.941 NotebookApp] Kernel started: 26d58ca6-dca8-422a-9f20-9e8a08c72169
+[I 16:45:32.436 NotebookApp] Adapting to protocol v5.1 for kernel 26d58ca6-dca8-422a-9f20-9e8a08c72169
+[I 16:45:46.009 NotebookApp] Starting buffering for 26d58ca6-dca8-422a-9f20-9e8a08c72169:F877285873DA48068422B9563DE993D3
+[I 16:46:47.914 NotebookApp] Saving file at /Development/Final - AWS - Cycle-GAN.ipynb
+[W 16:46:47.915 NotebookApp] Notebook Development/Final - AWS - Cycle-GAN.ipynb is not trusted
+[I 16:48:47.902 NotebookApp] Saving file at /Development/Final - AWS - Cycle-GAN.ipynb
+[W 16:48:47.903 NotebookApp] Notebook Development/Final - AWS - Cycle-GAN.ipynb is not trusted
+[I 16:50:47.876 NotebookApp] Saving file at /Development/Final - AWS - Cycle-GAN.ipynb
+[W 16:50:47.877 NotebookApp] Notebook Development/Final - AWS - Cycle-GAN.ipynb is not trusted
+[I 16:52:47.924 NotebookApp] Saving file at /Development/Final - AWS - Cycle-GAN.ipynb
+[W 16:52:47.925 NotebookApp] Notebook Development/Final - AWS - Cycle-GAN.ipynb is not trusted
+[I 16:54:47.959 NotebookApp] Saving file at /Development/Final - AWS - Cycle-GAN.ipynb
+[W 16:54:47.960 NotebookApp] Notebook Development/Final - AWS - Cycle-GAN.ipynb is not trusted
+[I 16:56:47.902 NotebookApp] Saving file at /Development/Final - AWS - Cycle-GAN.ipynb
+[I 16:58:47.929 NotebookApp] Saving file at /Development/Final - AWS - Cycle-GAN.ipynb
+[I 17:00:47.940 NotebookApp] Saving file at /Development/Final - AWS - Cycle-GAN.ipynb
+[I 17:02:47.933 NotebookApp] Saving file at /Development/Final - AWS - Cycle-GAN.ipynb
+[I 17:04:47.908 NotebookApp] Saving file at /Development/Final - AWS - Cycle-GAN.ipynb
+[I 17:07:05.516 NotebookApp] Saving file at /Development/Final - AWS - Cycle-GAN.ipynb
+[I 17:09:16.062 NotebookApp] Saving file at /Development/Final - AWS - Cycle-GAN.ipynb
+[I 17:11:16.138 NotebookApp] Saving file at /Development/Final - AWS - Cycle-GAN.ipynb
+[I 17:13:16.248 NotebookApp] Saving file at /Development/Final - AWS - Cycle-GAN.ipynb
+[I 17:15:27.875 NotebookApp] Saving file at /Development/Final - AWS - Cycle-GAN.ipynb
+[I 17:18:37.498 NotebookApp] Saving file at /Development/Final - AWS - Cycle-GAN.ipynb
+[I 17:22:08.217 NotebookApp] Saving file at /Development/Final - AWS - Cycle-GAN.ipynb
+[W 17:22:16.846 NotebookApp] WebSocket ping timeout after 119959 ms.
+[I 17:22:21.849 NotebookApp] Starting buffering for 6704ffec-ea69-4db5-8f0d-9c20f9f7b516:96734A5471734CFF883E5B15C3E136E4
+[W 17:59:31.620 NotebookApp] 404 GET /static/components/moment/locale/en-gb.js?v=20180322164355 (5.151.152.136) 2.12ms referer=https://52.17.103.4:8888/notebooks/Development/Final%20-%20AWS%20-%20Cycle-GAN.ipynb
+[W 17:59:33.237 NotebookApp] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (5.151.152.136) 2.41ms referer=https://52.17.103.4:8888/notebooks/Development/Final%20-%20AWS%20-%20Cycle-GAN.ipynb
+[I 17:59:33.274 NotebookApp] Adapting to protocol v5.1 for kernel 6704ffec-ea69-4db5-8f0d-9c20f9f7b516
+[I 17:59:33.275 NotebookApp] Discarding 72 buffered messages for 6704ffec-ea69-4db5-8f0d-9c20f9f7b516:96734A5471734CFF883E5B15C3E136E4
+[I 18:00:58.063 NotebookApp] Starting buffering for 6704ffec-ea69-4db5-8f0d-9c20f9f7b516:3C3C8488E801421F82E58554D2C5AEDD
+[W 18:00:58.885 NotebookApp] 404 GET /static/components/moment/locale/en-gb.js?v=20180322164355 (5.151.152.136) 1.40ms referer=https://52.17.103.4:8888/notebooks/Development/Final%20-%20AWS%20-%20Cycle-GAN.ipynb
+[W 18:01:00.432 NotebookApp] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (5.151.152.136) 2.28ms referer=https://52.17.103.4:8888/notebooks/Development/Final%20-%20AWS%20-%20Cycle-GAN.ipynb
+[I 18:01:00.529 NotebookApp] Adapting to protocol v5.1 for kernel 6704ffec-ea69-4db5-8f0d-9c20f9f7b516
+[I 18:01:17.434 NotebookApp] Kernel interrupted: 6704ffec-ea69-4db5-8f0d-9c20f9f7b516
+[I 18:03:00.591 NotebookApp] Saving file at /Development/Final - AWS - Cycle-GAN.ipynb
+[I 18:05:00.604 NotebookApp] Saving file at /Development/Final - AWS - Cycle-GAN.ipynb
+[I 18:07:00.613 NotebookApp] Saving file at /Development/Final - AWS - Cycle-GAN.ipynb
+[I 18:09:00.624 NotebookApp] Saving file at /Development/Final - AWS - Cycle-GAN.ipynb
+[I 18:11:00.640 NotebookApp] Saving file at /Development/Final - AWS - Cycle-GAN.ipynb
+[I 18:13:00.619 NotebookApp] Saving file at /Development/Final - AWS - Cycle-GAN.ipynb
+[I 18:15:00.618 NotebookApp] Saving file at /Development/Final - AWS - Cycle-GAN.ipynb
+[I 18:17:00.623 NotebookApp] Saving file at /Development/Final - AWS - Cycle-GAN.ipynb
+[I 18:19:00.605 NotebookApp] Saving file at /Development/Final - AWS - Cycle-GAN.ipynb
+[I 18:21:00.601 NotebookApp] Saving file at /Development/Final - AWS - Cycle-GAN.ipynb
+[I 18:23:00.639 NotebookApp] Saving file at /Development/Final - AWS - Cycle-GAN.ipynb
+[I 18:25:03.676 NotebookApp] Saving file at /Development/Final - AWS - Cycle-GAN.ipynb
+[I 18:27:26.714 NotebookApp] Saving file at /Development/Final - AWS - Cycle-GAN.ipynb
+[I 18:30:31.001 NotebookApp] Saving file at /Development/Final - AWS - Cycle-GAN.ipynb
+[I 18:32:30.841 NotebookApp] Saving file at /Development/Final - AWS - Cycle-GAN.ipynb
+[I 18:34:30.835 NotebookApp] Saving file at /Development/Final - AWS - Cycle-GAN.ipynb
+[I 18:36:30.859 NotebookApp] Saving file at /Development/Final - AWS - Cycle-GAN.ipynb
+[I 18:38:30.861 NotebookApp] Saving file at /Development/Final - AWS - Cycle-GAN.ipynb
+[I 18:40:30.867 NotebookApp] Saving file at /Development/Final - AWS - Cycle-GAN.ipynb
+[I 18:42:21.518 NotebookApp] Saving file at /Development/Final - AWS - Cycle-GAN.ipynb
+[I 18:42:23.965 NotebookApp] Starting buffering for 6704ffec-ea69-4db5-8f0d-9c20f9f7b516:3EFE8C07480046549946DEBDDDC20F2E

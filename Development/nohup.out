@@ -116,3 +116,7 @@
 [I 00:06:37.866 NotebookApp] Saving file at /Final - AWS - GAN.ipynb
 [W 00:06:37.867 NotebookApp] Notebook Final - AWS - GAN.ipynb is not trusted
 [I 00:06:43.261 NotebookApp] Starting buffering for 188c24d9-dacb-4d69-bd00-8b501881b617:BBDD7E38BFDE4782843D0F258DDCEB5A
+[C 00:08:41.241 NotebookApp] received signal 15, stopping
+[I 00:08:41.242 NotebookApp] Shutting down 2 kernels
+[I 00:08:41.266 NotebookApp] Kernel shutdown: 8aece0a6-ea48-4cd0-94c4-2976cfa993a7
+[I 00:08:41.373 NotebookApp] Kernel shutdown: 188c24d9-dacb-4d69-bd00-8b501881b617
