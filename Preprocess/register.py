@@ -41,9 +41,9 @@ parser = argparse.ArgumentParser(description='Perform registration between a ref
 parser.add_argument('-reg_type', required=True, metavar=('REG'),\
  	help='Select the type of registration to perform, either non-linear:"SDR", or linear: "Affine"')
 parser.add_argument('ref_scan', metavar=('ref_scan'),\
- 	help='Reference scan path')
+ 	help='Reference scan')
 parser.add_argument('scan', metavar=('scan'),\
- 	help='Scan to be registered path')
+ 	help='Scan to be registered')
 
 params = parser.parse_args()
 
@@ -51,7 +51,6 @@ params = parser.parse_args()
 # Get the directories where the files are stored, they will be used for storing the generated scans
 ref_dir_path = os.path.dirname(params.ref_scan)
 other_dir_path = os.path.dirname(params.scan)
-print ref_dir_path
 
 def affine_registration(reference, reference_grid2world, scan, scan_grid2world):
     #get first b0 volumes for both scans
