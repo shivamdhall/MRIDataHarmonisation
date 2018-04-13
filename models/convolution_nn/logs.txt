@@ -1,0 +1,256 @@
+[1,    20] --- Losss = 181057.77500 
+[1,    40] --- Losss = 174817.27813 
+[1,    60] --- Losss = 172978.32917 
+[1,    80] --- Losss = 173779.92520 
+[1,   100] --- Losss = 173515.15711 
+[1,   120] --- Losss = 169676.80807 
+[1,   140] --- Losss = 165583.34967 
+[1,   160] --- Losss = 161063.21162 
+[1,   180] --- Losss = 157149.98077 
+[1,   200] --- Losss = 151465.33766 
+[1,   220] --- Losss = 145874.92617 
+[1,   240] --- Losss = 140520.98545 
+[1,   260] --- Losss = 135546.15566 
+[1,   280] --- Losss = 130330.05342 
+[1,   300] --- Losss = 125183.97115 
+[1,   320] --- Losss = 120219.57683 
+[1,   340] --- Losss = 115432.73984 
+[1,   360] --- Losss = 110887.16260 
+[1,   380] --- Losss = 106776.01671 
+[1,   400] --- Losss = 102923.01526 
+[1,   420] --- Losss = 99324.37648 
+[1,   440] --- Losss = 95908.98014 
+
+Training loss iteration 1 = 24826.61973 
+MSE on validation set: 23857.224069 
+
+Completed training 
+
+[1,    20] --- Losss = 171564.32891 
+[1,    40] --- Losss = 171740.52910 
+[1,    60] --- Losss = 172984.52826 
+[1,    80] --- Losss = 175046.23877 
+[1,   100] --- Losss = 171816.24219 
+[1,   120] --- Losss = 168994.66458 
+[1,   140] --- Losss = 165897.38437 
+[1,   160] --- Losss = 162298.14604 
+[1,   180] --- Losss = 156772.16081 
+[1,   200] --- Losss = 151259.52449 
+[1,   220] --- Losss = 145916.52276 
+[1,   240] --- Losss = 140969.24492 
+[1,   260] --- Losss = 135369.23534 
+[1,   280] --- Losss = 130067.83509 
+[1,   300] --- Losss = 124874.14474 
+[1,   320] --- Losss = 119913.55660 
+[1,   340] --- Losss = 115246.67094 
+[1,   360] --- Losss = 110750.30544 
+[1,   380] --- Losss = 106396.16604 
+[1,   400] --- Losss = 102587.20866 
+[1,   420] --- Losss = 99004.19586 
+[1,   440] --- Losss = 95525.47533 
+
+Training loss iteration 1 = 26422.57578 
+MSE on validation set: 27667.459926 
+
+Completed training 
+
+
+
+
+Evaluating performance of CNN on test patches
+
+----------------------------
+MSE on test patches: 28369.175781 
+Mean absolute loss on test patches: 120.158028 
+R2 loss on test patches (Coefficient of determination): 0.468093 
+Percentage of predictions within target range: 12.991279 
+
+
+
+Calculating errors between target patches
+
+---------------------------- 
+MSE between targets: 22387.105469 
+Mean absolute loss between targets: 72.972610 
+R2 loss between targets (Coefficient of determination): 0.580254 
+
+
+
+Evaluating performance of CNN on unseen test scans
+
+--------------Testing Scan 1---------------
+MSE on test scan: 16626.371094 
+Mean absolute loss on test scan: 61.338268 
+R2 loss on test scan (Coefficient of determination): 0.711085 
+Percentage of predictions within target range: 55.310472 
+
+------Average of errors across all scans------ 
+Avg MSE: 16626.371094 
+Avg L1: 61.338268 
+Avg R2: 0.711085 
+
+
+
+Calculating errors between target scans
+
+--------------Testing Scan 1--------------- 
+MSE between targets: 4244.354980 
+Mean absolute loss between targets: 23.931274 
+R2 loss between targets (Coefficient of determination): 0.926246 
+
+-------Average of errors-------- 
+Avg MSE: 4244.354980 
+Avg L1: 23.931274 
+Avg R2: 0.926246 
+[1,    20] --- Losss = 180255.42656 
+[1,    40] --- Losss = 180747.62891 
+[1,    60] --- Losss = 177791.58151 
+[1,    80] --- Losss = 177067.00840 
+[1,   100] --- Losss = 174478.23406 
+[1,   120] --- Losss = 170693.94460 
+[1,   140] --- Losss = 166806.24297 
+[1,   160] --- Losss = 162209.29487 
+[1,   180] --- Losss = 156763.54674 
+[1,   200] --- Losss = 151876.89246 
+[1,   220] --- Losss = 146151.83453 
+[1,   240] --- Losss = 141327.61066 
+[1,   260] --- Losss = 135902.32802 
+[1,   280] --- Losss = 130495.81168 
+[1,   300] --- Losss = 125288.84798 
+[1,   320] --- Losss = 120140.03544 
+[1,   340] --- Losss = 115408.48378 
+[1,   360] --- Losss = 111169.47453 
+[1,   380] --- Losss = 106941.72175 
+[1,   400] --- Losss = 102894.70014 
+[1,   420] --- Losss = 99275.75680 
+[1,   440] --- Losss = 95836.16328 
+
+Training loss iteration 1 = 18031.54097 
+MSE on validation set: 19174.723022 
+
+Completed training 
+
+
+
+
+Evaluating performance of CNN on test patches
+
+----------------------------
+MSE on test patches: 18033.494141 
+Mean absolute loss on test patches: 92.625336 
+R2 loss on test patches (Coefficient of determination): 0.648233 
+Percentage of predictions within target range: 20.523276 
+
+
+
+Calculating errors between target patches
+
+---------------------------- 
+MSE between targets: 21237.806641 
+Mean absolute loss between targets: 73.151543 
+R2 loss between targets (Coefficient of determination): 0.585729 
+
+
+
+Evaluating performance of CNN on unseen test scans
+
+--------------Testing Scan 1---------------
+MSE on test scan: 11308.715820 
+Mean absolute loss on test scan: 50.390266 
+R2 loss on test scan (Coefficient of determination): 0.803490 
+Percentage of predictions within target range: 57.048018 
+
+------Average of errors across all scans------ 
+Avg MSE: 11308.715820 
+Avg L1: 50.390266 
+Avg R2: 0.803490 
+
+
+
+Calculating errors between target scans
+
+--------------Testing Scan 1--------------- 
+MSE between targets: 4244.354980 
+Mean absolute loss between targets: 23.931274 
+R2 loss between targets (Coefficient of determination): 0.926246 
+
+-------Average of errors-------- 
+Avg MSE: 4244.354980 
+Avg L1: 23.931274 
+Avg R2: 0.926246 
+[1,    20] --- Losss = 185155.56016 
+[1,    40] --- Losss = 176916.11602 
+[1,    60] --- Losss = 171918.25469 
+[1,    80] --- Losss = 172082.23340 
+[1,   100] --- Losss = 169972.35852 
+[1,   120] --- Losss = 166378.20417 
+[1,   140] --- Losss = 162399.19330 
+[1,   160] --- Losss = 159068.40815 
+[1,   180] --- Losss = 154728.28885 
+[1,   200] --- Losss = 149351.97949 
+[1,   220] --- Losss = 144069.66779 
+[1,   240] --- Losss = 139194.28317 
+[1,   260] --- Losss = 133440.43059 
+[1,   280] --- Losss = 128108.96232 
+[1,   300] --- Losss = 123006.06634 
+[1,   320] --- Losss = 118295.92150 
+[1,   340] --- Losss = 113624.99962 
+[1,   360] --- Losss = 109338.53856 
+[1,   380] --- Losss = 105184.30349 
+[1,   400] --- Losss = 101211.37713 
+[1,   420] --- Losss = 97485.73552 
+[1,   440] --- Losss = 94020.92809 
+
+Training loss iteration 1 = 17781.30551 
+MSE on validation set: 18223.152274 
+
+Completed training 
+
+
+
+
+Evaluating performance of CNN on test patches
+
+----------------------------
+MSE on test patches: 18986.689453 
+Mean absolute loss on test patches: 91.698341 
+R2 loss on test patches (Coefficient of determination): 0.653338 
+Percentage of predictions within target range: 22.052328 
+
+
+
+Calculating errors between target patches
+
+---------------------------- 
+MSE between targets: 24014.212891 
+Mean absolute loss between targets: 75.712914 
+R2 loss between targets (Coefficient of determination): 0.561544 
+
+
+
+Evaluating performance of CNN on unseen test scans
+
+--------------Testing Scan 1---------------
+MSE on test scan: 12232.198242 
+Mean absolute loss on test scan: 49.129494 
+R2 loss on test scan (Coefficient of determination): 0.787442 
+Percentage of predictions within target range: 57.728362 
+
+------Average of errors across all scans------ 
+Avg MSE: 12232.198242 
+Avg L1: 49.129494 
+Avg R2: 0.787442 
+
+
+
+Calculating errors between target scans
+
+--------------Testing Scan 1--------------- 
+MSE between targets: 4244.354980 
+Mean absolute loss between targets: 23.931274 
+R2 loss between targets (Coefficient of determination): 0.926246 
+
+-------Average of errors-------- 
+Avg MSE: 4244.354980 
+Avg L1: 23.931274 
+Avg R2: 0.926246 

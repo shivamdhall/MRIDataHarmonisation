@@ -4,3 +4,7 @@
 /CIFAR-10/data
 *.icloud
 *.npy
+*.png
+*.pyc
+*.pth
+*.nii.gz

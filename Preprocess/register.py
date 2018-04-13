@@ -1,14 +1,23 @@
 '''
-This script takes a two sets of DW-MRI scans and performs 
-non-linear Symmetric Diffeomorphic Registration between the scans
-This is a vital step is a supervised learning approach is used for
-creating a machine learning model
+This script takes two DW-MRI scans (reference and input scan)
+and performs either non-linear Symmetric Diffeomorphic Registration,
+or simple affine registration between them.
+
+It is vital to register input and target scans if a supervied
+learning approach is used for creating a machine learning model.
 
 After registration has been performed, brain masks are then generated
-for each scan using FSL Brain Extraction tool (BET). The intersection
-of the brain masks associated with each of a subject's scans are then created, 
-these unioned mask are then used to extract the brains from each pair of registered
-scans.
+for botht the refernce and the registered scan -- this is done using 
+FSL Brain Extraction tool (BET). A new mask is then created by finding the 
+intersection of the two brain masks, this new mask is then used to 
+extract the brains from the reference and the newly registered scan.
+
+The newly generated reference scan (with the brain extracted) is stored
+in the same directory as the reference scan with the file name "Brain_Extracted.nii.gz"
+
+The registered scan is stored in the same direcotry as the input scan with the
+file name "Full_Registered_Scan.nii.gz" and "Brain_Extracted_Registered.nii.gz" 
+(the former file contains a registered scan of the brain only)
 '''
 
 import nibabel as nib
@@ -37,20 +46,6 @@ from dipy.align.transforms import (TranslationTransform3D,
                                    RigidTransform3D,
                                    AffineTransform3D)
 
-parser = argparse.ArgumentParser(description='Perform registration between a reference scan and any other scan.')
-parser.add_argument('-reg_type', required=True, metavar=('REG'),\
- 	help='Select the type of registration to perform, either non-linear:"SDR", or linear: "Affine"')
-parser.add_argument('ref_scan', metavar=('ref_scan'),\
- 	help='Reference scan')
-parser.add_argument('scan', metavar=('scan'),\
- 	help='Scan to be registered')
-
-params = parser.parse_args()
-
-
-# Get the directories where the files are stored, they will be used for storing the generated scans
-ref_dir_path = os.path.dirname(params.ref_scan)
-other_dir_path = os.path.dirname(params.scan)
 
 def affine_registration(reference, reference_grid2world, scan, scan_grid2world):
     #get first b0 volumes for both scans
@@ -117,7 +112,7 @@ def affine_registration(reference, reference_grid2world, scan, scan_grid2world):
 
 
 
-def compute_masks_crop_bet(reference_scan, other_scan1, ref_scan_path, ref_dir_path, other_dir_path):
+def compute_masks_crop_bet(reference_scan, other_scan1, ref_scan_path, ref_dir_path, other_dir_path,  starting_dir):
     # Use bet for generating brain masks for each of the scans
 
     # Get the mask of the reference scan 
@@ -128,6 +123,11 @@ def compute_masks_crop_bet(reference_scan, other_scan1, ref_scan_path, ref_dir_p
     # Delete the created files
     os.remove('Brain_temp.nii.gz')
     os.remove('Brain_temp_mask.nii.gz')
+
+
+    # Go back to the original directory. We do this because the file paths specified are not 
+    # Required to be absolute
+    os.chdir(starting_dir)
 
     # Similarly get the masks of the other scans
     os.chdir(other_dir_path)
@@ -151,6 +151,22 @@ def compute_masks_crop_bet(reference_scan, other_scan1, ref_scan_path, ref_dir_p
     return (reference_scan_brain, other_scan1_brain)  
 
 
+
+parser = argparse.ArgumentParser(description='Perform registration between a reference scan and any other scan.')
+parser.add_argument('-reg_type', required=True, metavar=('REG'),\
+    help='Select the type of registration to perform, either non-linear: "SDR", or linear: "Affine"')
+parser.add_argument('ref_scan', metavar=('ref_scan'),\
+    help='Reference scan')
+parser.add_argument('scan', metavar=('scan'),\
+    help='Scan to be registered')
+
+params = parser.parse_args()
+
+current_dir = os.getcwd()
+
+# Get the directories where the files are stored, they will be used for storing the generated scans
+ref_dir_path = os.path.dirname(params.ref_scan)
+other_dir_path = os.path.dirname(params.scan)
 
 # Load the reference scan and the corresponding scan
 reference_scan = nib.load(params.ref_scan)
@@ -179,7 +195,7 @@ nib.save(other_scan1_img, other_dir_path + "/Full_Registered_Scan.nii.gz")
 # Compute brain masks for each scan - Use FSL BET for this
 print ("Computing brain masks")
 (reference_brain, other_brain1) = \
-    compute_masks_crop_bet(reference_scan_data, other_scan1_transformed, params.ref_scan, ref_dir_path, other_dir_path)
+    compute_masks_crop_bet(reference_scan_data, other_scan1_transformed, params.ref_scan, ref_dir_path, other_dir_path, current_dir)
 
 # Save the new masked/cropped scans
 print ("Saving cropped masks")  

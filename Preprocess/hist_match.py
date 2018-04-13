@@ -3,6 +3,11 @@ This file contains functions that are used to perform histogram
 matching between a reference scan and any other scan.
 
 Please note matching only takes place for b=0 volumes
+
+The histogram matching script generates a new scan consisting of the
+same number of voluems as the original input scan. It then stores this
+scan with the file name "Brain_Matched.nii.gz" in the directory where
+the input scans are stored
 '''
 
 import nibabel as nib
@@ -79,8 +84,7 @@ def threshold_and_match(ref_scan, ref_scan_bval, ref_scan_bvec, input_scan, inpu
     ref_scan_name = os.path.basename(ref_scan)
     input_scan_name = os.path.basename(input_scan)
 
-    os.chdir(ref_scan_dir)
-    ref_scan_image = nib.load(ref_scan_name)
+    ref_scan_image = nib.load(ref_scan)
     ref_scan_data = ref_scan_image.get_data()
     ref_bvals, ref_bvecs = read_bvals_bvecs(ref_scan_bval, ref_scan_bvec)
     ref_gtab = gradient_table(ref_bvals, ref_bvecs, b0_threshold=5)
@@ -122,18 +126,18 @@ parser.add_argument('-threshold', required=True, type=bool, metavar=('BOOL'),\
  	help='If true then thresholding is appplied to the input scan in order to extract artifact voxels')
 
 parser.add_argument('ref_scan', metavar=('ref_scan'),\
- 	help='Reference scan')
+ 	help='File path of reference scan')
 parser.add_argument('ref_bval', metavar=('ref_bval'),\
- 	help='Reference scan bval file')
+ 	help='Path to reference scan bval file')
 parser.add_argument('ref_bvec',  metavar=('ref_bvec'),\
- 	help='Reference scan bvec file')
+ 	help='Path to reference scan bvec file')
 
 parser.add_argument('scan', metavar=('scan'),\
- 	help='Input scan')
+ 	help='Path to input scan')
 parser.add_argument('scan_bval', metavar=('scan_bval'),\
- 	help='Input scan bval file')
+ 	help='Path to input scan bval file')
 parser.add_argument('scan_bvec', metavar=('scan_bvec'),\
- 	help='Input scan bvec file')
+ 	help='Path to input scan bvec file')
 params = parser.parse_args()
 
 threshold_and_match(params.ref_scan, params.ref_bval, params.ref_bvec, params.scan, params.scan_bval, params.scan_bvec, params.threshold)
