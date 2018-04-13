@@ -9,8 +9,8 @@ from utils.split_dataset import split_data
 from models.cycle_gan.cyc_gan import cyc_gan_run
 
 # Variables
-petmr_data_path = '/Volumes/Seagate Backup Plus Drive/Project/Dataset/TRIO_data'
-trio_data_path = '/Volumes/Seagate Backup Plus Drive/Project/Dataset/PETMR_data'
+petmr_data_path = '/home/ubuntu/project/Dataset/PETMR_data'
+trio_data_path = '/home/ubuntu/project/Dataset/TRIO_data'
 
 # The below proportions should sum to 1
 train_proportion = 0.80
