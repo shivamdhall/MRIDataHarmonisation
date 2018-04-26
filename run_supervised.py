@@ -1,5 +1,6 @@
 '''
-train and evaluate the performance of all supervised deep learning algorithms on DW-MRI data
+pipeline for training and evaluating the performance of all supervised models,
+these models include FCN and RNN
 '''
 
 import numpy as np
@@ -9,9 +10,11 @@ from utils.split_dataset import split_data
 from models.convolution_nn.cnn import cnn_run
 from models.residual_nn.rnn import rnn_run
 
-# Variables
-petmr_data_path = '/home/ubuntu/project/Dataset/PETMR_data'
-trio_data_path = '/home/ubuntu/project/Dataset/TRIO_data'
+
+# Specify location of data
+petmr_data_path = '/Volumes/Seagate Backup Plus Drive/Project/Dataset/PETMR_data'
+trio_data_path = '/Volumes/Seagate Backup Plus Drive/Project/Dataset/TRIO_data'
+
 
 # The below proportions should sum to 1
 train_proportion = 0.80
@@ -20,10 +23,11 @@ test_proportion = 0.10
 
 # Upload scans then split into training, validation and testing subsets
 # Enter a list of tuples (subject, scan_number)
-train_val_test_scans = [(1,1), (1,2), (2,1), (2,2), (3,1), (3,2), (4,1), (4,2), (5,1), (5,2), (6,1), (6,2), (7,1), (7,2), (8,2)]
+train_val_test_scans = [(1,1), (1,2), (2,1), (2,2), (3,1), (3,2), (4,1), (4,2), \
+						(5,1), (5,2), (6,1), (6,2), (7,1), (7,2), (8,1), (8,2)]
 
 # Final test scans - These subject scans have never been seen by the model
-final_testing_scans = [(8,1), (9,1), (9,2), (10,1), (10,2)]
+final_testing_scans = [(9,1), (9,2), (10,1), (10,2)]
 
 data_dict = {"train_val_test": train_val_test_scans, "testing":final_testing_scans}
 
@@ -38,11 +42,12 @@ print ("Number of scans used for final testing: %d" % len(final_test_inp))
 # Convert the data into 3d-patches of size 9x9x9
 # For training purposes we patchify the brain only
 print("Patchifying training, validation and testing set")
-(train_val_test_input, train_val_test_target1, train_val_test_target2) = patchify_brain_only(train_val_test_inp, train_val_test_out1, train_val_test_out2, 9)
+(train_val_test_input, train_val_test_target1, train_val_test_target2) = \
+	patchify_brain_only(train_val_test_inp, train_val_test_out1, train_val_test_out2, 9)
 
 # Randomly split the train_val_test dataset into a training, validation and testing subsest
 training_input, training_target, validation_input, validation_target, testing_input, testing_target1, testing_target2 = \
-        split_data(train_val_test_input, train_val_test_target1, train_val_test_target2, train_proportion, validation_proportion, test_proportion)
+   	split_data(train_val_test_input, train_val_test_target1, train_val_test_target2, train_proportion, validation_proportion, test_proportion)
 
 # In order to predict a full scan, we must convert the entire scan into patches,
 # this makes it possible to reconstruct the entire scan from the predicted patches

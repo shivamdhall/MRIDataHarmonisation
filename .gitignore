@@ -8,3 +8,4 @@
 *.pyc
 *.pth
 *.nii.gz
+./notebooks

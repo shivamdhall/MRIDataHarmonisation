@@ -14,7 +14,6 @@ import random
 
 
 def patchify(data_scans_inp, data_scans_out1, data_scans_out2, patch_size):
-
     # This function extracts patches from a scan and appends them to a list.
     # This is done for all volumes of a scan (for both the inputs and targets)
 
@@ -57,7 +56,6 @@ def patchify(data_scans_inp, data_scans_out1, data_scans_out2, patch_size):
 
 
 def patchify_brain_only(data_scans_inp, data_scans_out1, data_scans_out2, patch_size):
-
     #This function extracts patches from a scan and appends them to a list.
     #This is done for all volumes of a scan (for both the inputs and targets)
     #This version of the functions only considers voxels wholly contained within the brain
@@ -107,7 +105,6 @@ def patchify_brain_only(data_scans_inp, data_scans_out1, data_scans_out2, patch_
 
 
 def pad_data(dataset, numb_slices):
-
     # This function is used for paddiny a dataset with 0 values, we only pad the x and y
     # dimension, it is not necessary to pad the z dimension as we will be extracting axial slices
 
@@ -150,7 +147,6 @@ def pad_data(dataset, numb_slices):
 
 
 def sliceify(scans_inp, numb_slices, overlap=False):
-
     # This function extracts non-overlapping axial slices of thickness (numb_slices) from a scan and appends them to a list.
     # This is done for all volumes of a scan
 

@@ -1,8 +1,8 @@
 '''
 This file contains function that are required for uploading data
-
 Note, the functions defined in this file assume that the data is stored in a particular format
 ''' 
+
 import nibabel as nib
 import numpy as np
 import os
@@ -13,7 +13,6 @@ import random
 
 
 def get_data(petmr_path, trio_path, scans_dict, input_scanner):
-
     # This function simply uploads the training and testing scans into lists of numpy arrays
     # the data is not yet sliced or patched at this stage
 
@@ -85,7 +84,6 @@ def get_data(petmr_path, trio_path, scans_dict, input_scanner):
 
 
 def get_data_unregistered(petmr_path, trio_path, scans_list, input_scanner):
-
     # This function simply uploads the training scans that are specified in the list "scans_list"
     # The scans that are uploaded are not registered between the scanners (hence unregistered)
 

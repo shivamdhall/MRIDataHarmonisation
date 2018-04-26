@@ -254,3 +254,6 @@ R2 loss between targets (Coefficient of determination): 0.926246
 Avg MSE: 4244.354980 
 Avg L1: 23.931274 
 Avg R2: 0.926246 
+[1,    20] --- Losss = 137779.29922 
+[1,    40] --- Losss = 134990.96680 
+[1,    60] --- Losss = 132142.24844 

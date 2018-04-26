@@ -1,6 +1,7 @@
 '''
 This file defines functions for generating various different types of visualisations
-All the visualisations generated will be stored in the visualisations folder
+All the visualisations generated will be stored in a folder that is passed into each 
+fucntion.
 '''
 
 import numpy as np
@@ -9,8 +10,9 @@ import matplotlib.pyplot as plt
 
 def viz_pred(inputs, predictions, labels, sliceNo, title, location):
     # This function takes an input scan, the predicted output scan and the actual output scan.
-    # The function then displays a specific axial from each scan side-by-side
+    # The function then displays a specific axial slice from each scan side-by-side
     # This visualisation is very useful for identifying regions of error in the predicted scans
+
     maximum = np.max([inputs.max(), predictions.max(), labels.max()])
     fig = plt.figure()
     plt.figure(figsize=(10,10))
@@ -26,8 +28,8 @@ def viz_pred(inputs, predictions, labels, sliceNo, title, location):
     fig.savefig(location + '/' + title + "_prediction.png")
 
 def viz_diff(predictions, inputs, labels, sliceNo, title, location):
-    # This plot is similar to that above, but also plots the prediction error
-    # (the absolute difference between the predicted and the actual scan for a particular slice)
+    # This function gnerates a plot of the prediction error
+    # (the absolute difference between the predicted and the ground-truth scan for a particular slice)
 
     maximum = np.max([inputs.max(), predictions.max(), labels.max()])
     difference = np.abs(predictions[:,:,sliceNo,0] - labels[:,:,sliceNo,0])
@@ -49,9 +51,8 @@ def viz_diff(predictions, inputs, labels, sliceNo, title, location):
 
 
 def bland_altman_error(pred, output1, output2, title, location, model):
-    # Use this function to generate a plot between the prediction error against the mean of the actual output value. 
-    # Additonally, plot the percentage error between the target and the predictions 
-    # using a heat/colormap.
+    # This function generates a plot between the prediction error against the mean of the ground-truth values. 
+    # Additonally, a color map is used to plot the percentage error between the ground-truths and the predictions.
 
     # Do not include background voxel predictions
     if model == "GAN":
@@ -85,8 +86,8 @@ def bland_altman_error(pred, output1, output2, title, location, model):
 
 
 def bland_altman_prediction(pred, output1, output2, title, location, model):
-    # Use this function to generate a plot between the prediction against the mean of the actual output values. 
-    # Additonally, plot the percentage error between the target and the predictions using a colormap.
+    # This function generates a plot between the predicted voxels against the mean of the ground-truth values. 
+    # Additonally, a color map is used to plot the percentage error between the ground-truths and the predictions.
 
     # Do not include background voxel predictions for GAN model only
     if model == "GAN":
@@ -122,7 +123,8 @@ def bland_altman_prediction(pred, output1, output2, title, location, model):
 
 
 def plot_losses(training_losses, validation_losses, title, location):
-    # Use this function to plot the training losses and validation losses after each epoch
+    # This function plots the training losses and validation losses after each epoch
+
     fig = plt.figure()
     plt.plot(range(1,len(training_losses)+1), training_losses, 'r-', label="Training error")
     plt.plot(range(1,len(validation_losses)+1), validation_losses, 'b-', label="Validation error")

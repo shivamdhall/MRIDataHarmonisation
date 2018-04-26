@@ -1,5 +1,6 @@
 '''
-train and evaluate the performance of the unsupervised cycle-general adversarial network on DW-MRI data
+Pipeline for training and evaluating the the performance of the unsupervised modles,
+this includes the cycle-GAN model
 '''
 
 import numpy as np
@@ -8,9 +9,10 @@ from utils.patchify import patchify, patchify_brain_only, sliceify
 from utils.split_dataset import split_data
 from models.cycle_gan.cyc_gan import cyc_gan_run
 
-# Variables
-petmr_data_path = '/home/ubuntu/project/Dataset/PETMR_data'
-trio_data_path = '/home/ubuntu/project/Dataset/TRIO_data'
+
+# Specify location of data
+petmr_data_path = '/Volumes/Seagate Backup Plus Drive/Project/Dataset/PETMR_data'
+trio_data_path = '/Volumes/Seagate Backup Plus Drive/Project/Dataset/TRIO_data'
 
 # The below proportions should sum to 1
 train_proportion = 0.80
@@ -19,10 +21,11 @@ test_proportion = 0.10
 
 # Upload scans then split into training, validation and testing
 # Enter a list of tuples (subject, scan_number)
-train_val_test_scans = [(1,1), (1,2), (2,1), (2,2), (3,1), (3,2), (4,1), (4,2), (5,1), (5,2), (6,1), (6,2), (7,1), (7,2), (8,2)]
+train_val_test_scans = [(1,1), (1,2), (2,1), (2,2), (3,1), (3,2), (4,1), (4,2),\
+					    (5,1), (5,2), (6,1), (6,2), (7,1), (7,2), (8,1), (8,2)]
 
 # Final test scans - These subject scans have never been seen by cycle-GAN
-final_testing_scans = [(8,1), (9,1), (9,2), (10,1), (10,2)]
+final_testing_scans = [(9,1), (9,2), (10,1), (10,2)]
 
 data_dict = {"train_val_test": train_val_test_scans, "testing":final_testing_scans}
 
@@ -34,8 +37,9 @@ data_dict = {"train_val_test": train_val_test_scans, "testing":final_testing_sca
 
 
 # Since we have registered scans, we can also upload them and use these for evlauation purposes
-(_, train_val_test_out1_registered, train_val_test_out2_registered, final_test_inp, final_test_out1_registered, final_test_out2_registered, affine_mat) = \
-        get_data(petmr_data_path, trio_data_path, data_dict, input_scanner="PETMR")
+(_, train_val_test_out1_registered, train_val_test_out2_registered, final_test_inp,\
+final_test_out1_registered, final_test_out2_registered, affine_mat) = \
+		get_data(petmr_data_path, trio_data_path, data_dict, input_scanner="PETMR")
 
 
 print("Number of scans used for training, validation and testing: %d" % len(train_val_test_inp))
@@ -58,7 +62,8 @@ final_scans_out2_padded, final_test_out2_slices = sliceify(final_test_out2_regis
 
 
 # Randomly split the train_val_test_inp dataset into a training, validation and testing subsest
-train_inp_slices, train_inp_slices_reg, validation_inp_slices, validation_out_slices, testing_inp_slices, testing_out1_slices, testing_out2_slices = \
+train_inp_slices, train_inp_slices_reg, validation_inp_slices, validation_out_slices, \
+testing_inp_slices, testing_out1_slices, testing_out2_slices = \
         split_data(train_val_test_inp_slices, train_val_test_out1_slices_registerd, train_val_test_out2_slices_registerd,\
                    train_proportion, validation_proportion, test_proportion)
 

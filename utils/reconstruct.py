@@ -7,6 +7,7 @@ import numpy as np
 
 def replace_background(prediction, input_scan):
     # This function simpy replaces all background voxels in the predicted scan with 0
+
     background_mask = input_scan <= 0
     prediction[background_mask] = 0
     
@@ -16,6 +17,7 @@ def replace_background(prediction, input_scan):
 def reconstruct_brain(predictions, scans, model):
     # Scans is a list containing the input scans where each scan is stored as a 4d numpy array
     # Iterate through all the scans and reconstruct them using the list of patches
+
     start_voxel = 0
     reconstructed_scans = []
     for scan in scans:
@@ -44,6 +46,7 @@ def reconstruct_brain(predictions, scans, model):
 def reconstruct_brain_from_slices(predictions, scans, slice_size):
     # Scans is a list containing the input scans where each scan is stored as a 4d numpy array
     # Iterate through all the scans and reconstruct them
+    
     i = 0
     reconstructed_scans = []
     for scan in scans:

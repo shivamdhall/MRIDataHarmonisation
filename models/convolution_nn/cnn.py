@@ -24,13 +24,13 @@ class Conv_net(torch.nn.Module):
     def __init__(self):
         super(Conv_net, self).__init__()
 
-        self.conv1 = Conv_Block(input_size=1, output_size=50, kernel_size=3)
-        self.conv2 = Conv_Block(input_size=50, output_size=100, kernel_size=1)
-        self.conv3 = Conv_Block(input_size=100, output_size=200, kernel_size=3)
-        self.conv4 = Conv_Block(input_size=200, output_size=200, kernel_size=1)
-        self.conv5 = Conv_Block(input_size=200, output_size=100, kernel_size=3)
-        self.conv6 = Conv_Block(input_size=100, output_size=100, kernel_size=1)
-        self.conv7 = Conv_Block(input_size=100, output_size=50, kernel_size=3)
+        self.conv1 = Conv_Block(input_size=1, output_size=100, kernel_size=3)
+        self.conv2 = Conv_Block(input_size=100, output_size=20, kernel_size=1)
+        self.conv3 = Conv_Block(input_size=20, output_size=200, kernel_size=3)
+        self.conv4 = Conv_Block(input_size=200, output_size=20, kernel_size=1)
+        self.conv5 = Conv_Block(input_size=20, output_size=200, kernel_size=3)
+        self.conv6 = Conv_Block(input_size=200, output_size=20, kernel_size=1)
+        self.conv7 = Conv_Block(input_size=20, output_size=50, kernel_size=3)
         self.conv8 = Conv_Block(input_size=50, output_size=1, kernel_size=1, batch_norm=False)
 
         # Reusable dropout layer
@@ -57,7 +57,7 @@ class Conv_net(torch.nn.Module):
 
 
 class MRIdataset(Dataset):
-    # Define a class for holding our MRI dataset consisting of 3d patches.
+    # Define a class for holding our MRI dataset consisting of 3D patches.
     # This requires both input patches and target patches
 
     def __init__(self, input_patches, target_patches, transform=None):
@@ -124,6 +124,7 @@ def train_net(net, trainloader, valiloader, epochs, log_interval, gpu, log_file)
     scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, 'min', patience=0, verbose=True, factor =0.1, threshold=0.1)
 
     for epoch in range(epochs):  # loop over the dataset multiple times
+        print epoch
         net.train()
         running_loss = 0.0
         for i, data in enumerate(trainloader, 0): #done in batches
@@ -218,6 +219,7 @@ def train_net(net, trainloader, valiloader, epochs, log_interval, gpu, log_file)
 def get_predictions(net, testloader, gpu):
     # This function uses a trained CNN to generate predictions for the input patches that are contained within the training set.
     # The predictions are returned in the form of a numpy array
+
     net.eval()
     for index, test_data in enumerate(testloader):
         test_inputs = test_data['input']
@@ -243,12 +245,13 @@ def get_predictions(net, testloader, gpu):
 
 
 
-def cnn_run(training_data, validation_data, testing_data_patches, testing_data_scans, affine_mat, epochs=100, train=True, restore_model=False):
-
+def cnn_run(training_data, validation_data, testing_data_patches, testing_data_scans, affine_mat,\
+             epochs=100, train=True, restore_model=False):
     # training_data is a tuple of (training_inputs, training_labels)
     # validation_data is a tuple of (validation_inputs, validation_labels)
     # testing_data_patches is a tuple (testing_inputs, testing_target1, testing_target2)
-    # testing_data_scans is a tuple (testing_scans_inp, testing_scans_target1, testing_scnas_target2, testing_scans_patches_inp, testing_scans_patches_out1, testing_scans_patches_out2)
+    # testing_data_scans is a tuple (testing_scans_inp, testing_scans_target1, testing_scnas_target2,.... 
+    # ....testing_scans_patches_inp, testing_scans_patches_out1, testing_scans_patches_out2)
 
     # First check if the current machine has GPU support
     gpu = torch.cuda.is_available()
@@ -301,10 +304,12 @@ def cnn_run(training_data, validation_data, testing_data_patches, testing_data_s
         test_predictions = get_predictions(cnn_model, testloader, gpu)
 
         # Generate error plots of predictions
-        bland_altman_error(test_predictions, np.asarray(testing_data_patches[1]), np.asarray(testing_data_patches[2]), "Predictoin error plot", viz_path, "CNN")
+        bland_altman_error(test_predictions, np.asarray(testing_data_patches[1]), np.asarray(testing_data_patches[2]),\
+                         "Predictoin error plot", viz_path, "CNN")
 
          # Generate plot of prediction vs target
-        bland_altman_prediction(test_predictions, np.asarray(testing_data_patches[1]), np.asarray(testing_data_patches[2]), "Predicted VS target", viz_path, "CNN")
+        bland_altman_prediction(test_predictions, np.asarray(testing_data_patches[1]), np.asarray(testing_data_patches[2]),\
+                             "Predicted VS target", viz_path, "CNN")
 
         # Get performance statistics
         print ("Evaluating performance of CNN on test patches\n")

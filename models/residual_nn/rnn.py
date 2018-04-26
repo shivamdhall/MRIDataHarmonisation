@@ -25,15 +25,14 @@ class Residual_net(torch.nn.Module):
         super(Residual_net, self).__init__()
 
         # Residual convolution layers
-        self.conv1 = Conv_Block(input_size=1, output_size=100, kernel_size=3)
-        self.res1 = Resnet_Block(num_filter=100)
-        self.conv2 = Conv_Block(input_size=100, output_size=100, kernel_size=3)
-        self.res2 = Resnet_Block(num_filter=100)
-        self.conv3 = Conv_Block(input_size=100, output_size=100, kernel_size=3)
-        self.res3 = Resnet_Block(num_filter=1)
+        self.conv1 = Conv_Block(input_size=1, output_size=50, kernel_size=3)
+        self.res1 = Resnet_Block(num_filter=50)
+        self.conv2 = Conv_Block(input_size=50, output_size=50, kernel_size=3)
+        self.res2 = Resnet_Block(num_filter=50)
+        self.conv3 = Conv_Block(input_size=50, output_size=50, kernel_size=3)
 
         # MLP Regression layers
-        self.fc1 = Fully_Connected_Block(input_size=100*3*3*3, output_size=1500)
+        self.fc1 = Fully_Connected_Block(input_size=50*3*3*3, output_size=1500)
         self.fc2 = Fully_Connected_Block(input_size=1500, output_size=700)
         self.fc3 = Fully_Connected_Block(input_size=700, output_size=300)
         self.fc4 = Fully_Connected_Block(input_size=300, output_size=1, batch_norm=False)
@@ -47,13 +46,12 @@ class Residual_net(torch.nn.Module):
         enc2 = self.drop(self.res1(enc1))
         enc3 = self.drop(self.conv2(enc2))
         enc4 = self.drop(self.res2(enc3))
-        enc5 = self.drop(self.conv3(enc4))
-        enc6 = self.drop(self.res3(enc5))
-        enc6 = enc6.view(-1, 100*3*3*3)
-        enc7 = self.drop(self.fc1(enc6))
-        enc8 = self.drop(self.fc2(enc7))
-        enc9 = self.drop(self.fc3(enc8))
-        out = self.fc4(enc9)
+        enc5 = self.drop(self.res3(enc4))
+        enc5 = enc5.view(-1, 50*3*3*3)
+        enc6 = self.drop(self.fc1(enc5))
+        enc7 = self.drop(self.fc2(enc6))
+        enc8= self.drop(self.fc3(enc7))
+        out = self.fc4(enc8)
 
         return out
 
@@ -123,7 +121,7 @@ def train_net(net, trainloader, valiloader, epochs, log_interval, gpu, log_file)
     # Define a loss function and a n optimizer
     # We use MSE loss 
     if gpu:
-        criterion = nn.MSELoss().cida() #returns the average over a mini-batch as opposed to the sum
+        criterion = nn.MSELoss().cuda() #returns the average over a mini-batch as opposed to the sum
     else:
         criterion = nn.MSELoss()
     # Use Adam optimizer
@@ -133,6 +131,7 @@ def train_net(net, trainloader, valiloader, epochs, log_interval, gpu, log_file)
     scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, 'min', patience=0, verbose=True, factor =0.1, threshold=0.1)
 
     for epoch in range(epochs):  # loop over the dataset multiple times
+        print epoch
         net.train()
         running_loss = 0.0
         for i, data in enumerate(trainloader, 0): #done in batches
@@ -252,12 +251,14 @@ def get_predictions(net, testloader, gpu):
 
 
 
-def rnn_run(training_data, validation_data, testing_data_patches, testing_data_scans, affine_mat, epochs=100, train=True, restore_model=False):
+def rnn_run(training_data, validation_data, testing_data_patches, testing_data_scans, affine_mat,\
+             epochs=100, train=True, restore_model=False):
 
     # training_data is a tuple of (training_inputs, training_labels)
     # validation_data is a tuple of (validation_inputs, validation_labels)
     # testing_data_patches is a tuple (testing_inputs, testing_target1, testing_target2)
-    # testing_data_scans is a tuple (testing_scans_inp, testing_scans_target1, testing_scnas_target2, testing_scans_patches_inp, testing_scans_patches_out1, testing_scans_patches_out2)
+    # testing_data_scans is a tuple (testing_scans_inp, testing_scans_target1, testing_scnas_target2,....
+    # ....testing_scans_patches_inp, testing_scans_patches_out1, testing_scans_patches_out2)
 
     # First check if the current machine has GPU support
     gpu = torch.cuda.is_available()
@@ -310,10 +311,12 @@ def rnn_run(training_data, validation_data, testing_data_patches, testing_data_s
         test_predictions = get_predictions(rnn_model, testloader, gpu)
 
         # Generate error plots of predictions
-        bland_altman_error(test_predictions, np.asarray(testing_data_patches[1]), np.asarray(testing_data_patches[2]), "Predictoin error plot", viz_path, "RNN")
+        bland_altman_error(test_predictions, np.asarray(testing_data_patches[1]), np.asarray(testing_data_patches[2]),\
+                         "Predictoin error plot", viz_path, "RNN")
 
          # Generate plot of prediction vs target
-        bland_altman_prediction(test_predictions, np.asarray(testing_data_patches[1]), np.asarray(testing_data_patches[2]), "Predicted VS target", viz_path, "RNN")
+        bland_altman_prediction(test_predictions, np.asarray(testing_data_patches[1]), np.asarray(testing_data_patches[2]),\
+                                 "Predicted VS target", viz_path, "RNN")
 
         # Get performance statistics
         print ("Evaluating performance of residual NN on test patches\n")

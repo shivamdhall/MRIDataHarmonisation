@@ -1,6 +1,6 @@
 '''
 Use the functions defined in this file to split a dataset set into 
-a separate training, validaton and testing datasets.
+separate training, validaton and testing subsets.
 
 A proportion can be spcified for each of the subsets
 '''
@@ -9,7 +9,6 @@ import numpy as np
 import random
 
 def split_data(input_list, output_list1, output_list2, train_prop, val_prop, test_prop):
-
 	# Randomly split a datasets into training, validation and testing subsets
 	# Perform the same split for the input and output datasets
 	

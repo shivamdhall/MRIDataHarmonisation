@@ -27,14 +27,14 @@ class Generator(torch.nn.Module):
         super(Generator, self).__init__()
 
         # Encoder
-        self.conv1 = Conv_Block(input_size=1, output_size=100)
+        self.conv1 = Conv_Block(kernel_size=3, input_size=1, output_size=50)
         # Resnet blocks
         self.resnet_blocks = []
         for i in range(3):
-            self.resnet_blocks.append(Resnet_Block(num_filter=100))
+            self.resnet_blocks.append(Resnet_Block(num_filter=50))
         self.resnet_blocks = torch.nn.Sequential(*self.resnet_blocks)
         # Decoder
-        self.deconv1 = Deconv_Block(input_size=100, output_size=1, batch_norm=False)
+        self.deconv1 = Deconv_Block(kernel_size=3, input_size=50, output_size=1, batch_norm=False)
 
     def forward(self, x):
         # Encoder
@@ -60,9 +60,9 @@ class Discriminator(torch.nn.Module):
     def __init__(self):
         super(Discriminator, self).__init__()
 
-        conv1 = Conv_Block(input_size=1, output_size=100, activation='lrelu', batch_norm=False)
-        conv2 = Conv_Block(input_size=100, output_size=100, kernel_size=(1,3,3), stride=(1,3,3), activation='lrelu')
-        conv3 = Conv_Block(input_size=100, output_size=1, kernel_size=(1,3,3), stride=(1,3,3), activation='no_act', batch_norm=False)
+        conv1 = Conv_Block(input_size=1, output_size=50, kernel_size=3, activation='lrelu', batch_norm=False)
+        conv2 = Conv_Block(input_size=50, output_size=50, kernel_size=(1,3,3), stride=(1,3,3), activation='lrelu')
+        conv3 = Conv_Block(input_size=50, output_size=1, kernel_size=(1,3,3), stride=(1,3,3), activation='no_act', batch_norm=False)
 
         self.conv_blocks = torch.nn.Sequential(
             conv1,
@@ -152,7 +152,8 @@ class ImagePool():
         return return_images
 
 
-def train_net(G_A, G_B, D_A, D_B, trainloader_inp, trainloader_tar_unreg, trainloader_tar_reg, valiloader_inp, valiloader_tar, epochs, log_interval, gpu, log_file):
+def train_net(G_A, G_B, D_A, D_B, trainloader_inp, trainloader_tar_unreg, trainloader_tar_reg, valiloader_inp,\
+             valiloader_tar, epochs, log_interval, gpu, log_file):
 
     # Define list for storing losses after every epoch
     training_losses = []
@@ -181,14 +182,15 @@ def train_net(G_A, G_B, D_A, D_B, trainloader_inp, trainloader_tar_unreg, trainl
     num_pool = 50
     fake_A_pool = ImagePool(num_pool)
     fake_B_pool = ImagePool(num_pool)
-
-    G_A.train()
-    G_B.train()
-    D_A.train()
-    D_B.train()
     
     for epoch in range(epochs):
         print epoch
+
+        G_A.train()
+        G_B.train()
+        D_A.train()
+        D_B.train()
+        
         D_A_losses = []
         D_B_losses = []
         G_A_losses = []
@@ -233,7 +235,7 @@ def train_net(G_A, G_B, D_A, D_B, trainloader_inp, trainloader_tar_unreg, trainl
 
             # forward cycle loss
             recon_A = G_B(fake_B)
-            cycle_A_loss = L1_loss(recon_A, real_A) * 5
+            cycle_A_loss = L1_loss(recon_A, real_A) * 75
             running_cycle_A_loss += cycle_A_loss.data[0]
 
             # Train generator G_B
@@ -248,7 +250,7 @@ def train_net(G_A, G_B, D_A, D_B, trainloader_inp, trainloader_tar_unreg, trainl
 
             # backward cycle loss
             recon_B = G_A(fake_A)
-            cycle_B_loss = L1_loss(recon_B, real_B) * 5
+            cycle_B_loss = L1_loss(recon_B, real_B) * 75
             running_cycle_B_loss += cycle_B_loss.data[0]
 
             # Back propagation
@@ -321,11 +323,9 @@ def train_net(G_A, G_B, D_A, D_B, trainloader_inp, trainloader_tar_unreg, trainl
         D_B.eval()
         training_error = 0
         iteration = 0
-        limit = int(len(trainloader_inp) * 0.1) # only evaluate on 10% of the training data
         for i, (data_inp, data_tar) in enumerate(zip(trainloader_inp, trainloader_tar_reg)):
             iteration = i
-            if i == limit:
-                break
+
             training_inputs = data_inp['slice']
             training_labels = data_tar['slice']
 
@@ -403,12 +403,14 @@ def get_predictions(G_A, testloader, gpu):
     return predictions
 
 
-def cyc_gan_run(slice_size, training_data, validation_data, testing_data_slices, testing_data_scans, affine_mat, epochs=100, train=True, restore_model=False):
+def cyc_gan_run(slice_size, training_data, validation_data, testing_data_slices, testing_data_scans,\
+                 affine_mat, epochs=100, train=True, restore_model=False):
 
     # training_data is a tuple of (training_inputs, training_outputs_reg, training_outputs_unreg)
     # validation_data is a tuple of (validation_inputs, validation_labels)
     # testing_data_slices is a tuple (testing_inputs, testing_target1, testing_target2)
-    # testing_data_scans is a tuple (testing_scans_inp, testing_scans_target1, testing_scnas_target2, testing_scans_slices_inp, testing_scans_slices_out1, testing_scans_slices_out2)
+    # testing_data_scans is a tuple (testing_scans_inp, testing_scans_target1, testing_scnas_target2,....
+    # ....testing_scans_slices_inp, testing_scans_slices_out1, testing_scans_slices_out2)
 
     # First check if the current machine has GPU support
     gpu = torch.cuda.is_available()
@@ -485,10 +487,12 @@ def cyc_gan_run(slice_size, training_data, validation_data, testing_data_slices,
         test_predictions = get_predictions(G_A, testloader_inp, gpu)
 
         # Generate error plots of predictions
-        bland_altman_error(test_predictions, np.asarray(testing_data_slices[1]), np.asarray(testing_data_slices[2]), "Predictoin error plot", viz_path, "GAN")
+        bland_altman_error(test_predictions, np.asarray(testing_data_slices[1]), np.asarray(testing_data_slices[2]),\
+                          "Predictoin error plot", viz_path, "GAN")
 
          # Generate plot of prediction vs target
-        bland_altman_prediction(test_predictions, np.asarray(testing_data_slices[1]), np.asarray(testing_data_slices[2]), "Predicted VS target", viz_path, "GAN")
+        bland_altman_prediction(test_predictions, np.asarray(testing_data_slices[1]), np.asarray(testing_data_slices[2]),\
+                                "Predicted VS target", viz_path, "GAN")
 
         # Get performance statistics
         print ("Evaluating performance of cycle GAN on test slices\n")
